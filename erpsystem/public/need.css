@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+  }
+
+  .h3 {
+   text-align: center;
+    padding: 150px;
+  
+   
+  }
+
+  i {
+    font-size: 40px;
+    margin-top: -150px;
+    padding: 110px;
+    color:#ec2370;
+  }
+  
+  .icon-with-text-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+
+  .icon-with-text-1 i {
+    font-size: 48px; /* adjust as needed */
+    margin-bottom: -80px; /* adjust as needed */
+  }
+
+
+   .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*displays the icon 3 in 1 row */
+    gap: 130px;
+    text-align: left;
+  }
+
+  .icon-grid .icon-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon-grid i {
+    font-size: 48px;
+    margin-bottom: -80px;
+  }
+
+
+  a {
+    color: purple;
+    transition: color 0.5s;
+  }
+  
+  a:hover {
+    color: green;
+  }
