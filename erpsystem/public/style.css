@@ -34,6 +34,16 @@ header {
   padding: 0 2rem; 
 
 }
+#first_content h1{
+  max-width: 100%;
+  height: auto;
+  font-size: 70px;
+}
+#second_content p{
+  max-width: 100%;
+  height:auto;
+
+}
 
 .navbar {
   width: 100%;
@@ -45,10 +55,30 @@ header {
   justify-content: space-between;
 }
 
-.navbar .logo a {
-  font-size: 1 .5rem;
-  font-weight: bold;
+/* Styles for the logo container */
+.logo {
+  display: flex;
+  align-items: center;
+  
 }
+
+/* Styles for the logo image */
+.logo img {
+  max-width: 100px;
+  height: auto;
+  margin-top: 60px;
+  margin-right: 10px;
+  
+
+}
+ .navbar p{
+  margin-top: 60px;
+}
+
+.navbar p:hover{
+color: #2196F3;
+}
+
 
 .navbar .links {
   display: flex;
@@ -112,15 +142,42 @@ header {
   display: flex;
   justify-content: center;
 }
- section#hero{
+ section#first_content{
+  max-width: 100%;
+  height: auto;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left:250px;
+  margin-top: 300px;
+  color:#3f3a3a;
+} 
+
+section#second_content{
+  max-width: 100%;
+  height: auto;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   padding-left:250px;
   margin-top: 200px;
   color:#3f3a3a;
-} 
- .action_btn2{
+
+}
+section#third_content{
+
+  font-size:  26px;
+  font-stretch: normal;
+  display: inline-flex;
+  flex-direction: column;
+  padding-left:200px;
+  margin-top: 150px;
+  line-height: 16px;
+
+;
+}
+
+.action_btn2{
   background-color: #2196F3;
   color: #f7f9fa;
   width:100px;
@@ -137,30 +194,14 @@ header {
   color:#f7f9fa;
   scale: 0.95;
 }
-.btn3{
-  margin-top:-57px;
+.image{
+  max-width: 100%;
+  position: relative;
+  margin-top: -500px;
+  padding-left: 900px;
+  height: auto;
+  display: block;
 }
-.btn3 .action_btn3{
-  background-color:#f4f5f7; 
-  border: none;
-  color: rgb(192, 191, 191);
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.4rem;
-  font-weight: bold;
-  border-radius: 7px;
-  margin: 1px 460px;
-  cursor: pointer;
-}
-.action_btn3:hover{
-  color:#010a0f;
-  scale: 0.95;
-}
-
-
-
 
 
 /* Responsive */
@@ -168,8 +209,7 @@ header {
 @media (max-width: 992px) {
 
   .navbar .links,
-  .navbar .action_btn
-  .navbar .action_btn2 {
+  .navbar .action_btn{
     display: none;
 
   }
@@ -181,6 +221,16 @@ header {
   .dropdown_menu {
     display: block;
   }
+    /* image */
+    .image{
+      text-align:left;
+      padding: 100px 11px 19px; 
+      
+      }
+      .img1 .iamge{
+      display:block;
+      }
+   
 }
 
 @media (max-width: 576px) {
@@ -189,126 +239,107 @@ header {
     width: unset;
   }
 }
+/* Style for mobile screens */
+@media (max-width: 992px) {
+  section#first_content{
+    text-align:left;
+    padding:3%;
+    padding-bottom: 1px;
+    }
+    section#first_content .h1{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    padding:10%;
+    }
+    section#first_content .action_btn2{
+    margin:0% 6%;
+    }
+/* 
+    second_content */
+
+    section#second_content{
+      text-align:left;
+      padding:5%;
+      }
+      section#second_content .pre{
+      display:block;
+      margin:10px 0px;
+      text-align:left;
+      }
+     
+
+/* third_content */ 
+
+section#third_content{
+  text-align:left;
+  padding:5%;
+  }
+  section#third_content .pre{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+ 
+
+   }
 
 
-.img1{
-  margin-top: -380px;
-  padding-left: 900px;
 
-}
-
-
-/*FOOTER*/
-
-footer {
-  background: #16222A;
-  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-  background: linear-gradient(59deg, #3A6073, #16222A);
-  color: white;
-  margin-top:100px;
-}
-
-footer a {
-  color: #fff;
-  font-size: 14px;
-  transition-duration: 0.2s;
-}
-
-footer a:hover {
-  color: #FA944B;
-  text-decoration: none;
-}
-
-.copy {
-  font-size: 12px;
-  padding: 10px;
-  border-top: 1px solid #FFFFFF;
-}
-
-.footer-middle {
-  padding-top: 2em;
-  color: white;
-}
-
-
-/*SOCİAL İCONS*/
-
-/* footer social icons */
-
-ul.social-network {
-  list-style: none;
-  display: inline;
-  margin-left: 0 !important;
-  padding: 0;
-}
-
-ul.social-network li {
-  display: inline;
-  margin: 0 5px;
-}
-
-
-/* footer social icons */
-
-.social-network a.icoFacebook:hover {
-  background-color: #3B5998;
-}
-
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
-}
-
-.social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
-  color: #fff;
-}
-
-.social-network a.socialIcon:hover,
-.socialHoverClass {
-  color: #44BCDD;
-}
-
-.social-circle li a {
-  display: inline-block;
-  position: relative;
-  margin: 0 auto 0 auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  font-size: 15px;
-}
-
-.social-circle li i {
-  margin: 0;
-  line-height: 30px;
-  text-align: center;
-}
-
-.social-circle li a:hover i,
-.triggeredHover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -ms--transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.social-circle i {
-  color: #595959;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  transition: all 0.8s;
-}
-
-.social-network a {
-  background-color: #F9F9F9;
-}
+/* footer */
+  .footer{
+  background:#000;
+  margin-top: 1000px;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width: 992px) {
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+  
+  
