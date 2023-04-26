@@ -17,16 +17,7 @@ Route::get('welcome', function () {
     return view('welcome');
 });
 
-
-Route::get('need', function () {
-    return view('need');
-});
-
 Route::get('/', function () {
     return view('home');
-
-});
-Route::get('footer', function () {
-    return view('footer');
 
 });
