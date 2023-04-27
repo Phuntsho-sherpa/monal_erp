@@ -7,7 +7,15 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
 integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-wdCGQlG0xH89XmTjgA9slyOeHqls1jJnsWPTmpvFbA3tq3aP8bxOUGNpC1I/ItRbvJ/On/2QrYc53tE+whPO3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- 
+df -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href='style.css' rel='stylesheet'>
     <title>Document</title>
@@ -28,6 +36,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
         <div class="menu-toggle">
           <i class="bx bx-menu"></i>
           <i class="bx bx-x"></i>
+     
         </div>
       </header>
       <main>
@@ -44,31 +53,11 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
           </div>
         </section>
     
-        <!-- OFFER SECTION -->
-        <section class="container section-2">
-          <!-- offer 1 -->
-          <div class="offer offer-1">
-            <img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/o/r/organization_resource_planning_customer_relationship_management_erp_module_slide01.jpg" alt="a computer in dark with with white shadow" class="offer-img offer-1-img">
-            <div class="offer-description offer-desc-1">
-              <h2 class="offer-title">Welcome</h2>
-              <p class="offer-hook">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita illum, repudiandae voluptatibus itaque exercitationem eos in qui aperiam saepe cum consequuntur odit!</p>
-              <div class="cart-btn">ADD TO CART</div>
-            </div>
-          </div>
-       
+    
 
-          </section>
-    <!-- SPONSOR SECTION -->
-    <section class="container section-4">
-      <!-- SPONSOR group 1 -->
-      <div class="sponsor sponsor-1"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/microsoft.svg" alt=""></div>
-      <div class="sponsor sponsor-2"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/apple.svg" alt=""></div>
 
-      <!-- SPONSOR group 2 -->
-      <div class="sponsor sponsor-3"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/dell.svg" alt=""></div>
-      <div class="sponsor sponsor-4"><img src="https://raw.githubusercontent.com/r-e-d-ant/Computer-store-website/b90ac65459206fef22e9b87313f587185554263b/assets/images/ibm.svg" alt=""></div>
-    </section>
 
+    <section>
   <div class="h3">
   <h3>All you need</h3>
   </div>
@@ -141,33 +130,84 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
     <a href="link">learn more<span style="color: #3584e4;">&#8594;</span></a>
   </div>
 </div>
-     
-       
-    </body>
-<!--             
-    <footer>
-      <div class="footer">
-        <div class="row">
-            <a href="#"><i class="fa-brands fa-facebook" style="color: #3584e4;"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube" style="color: #ed333b;"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram" style="color: #ed333b;"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter" style="color: #1c71d8;"></i></a>
+</section> 
+<footer class="footer">
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="footer-col">
+
+            <h4>company</h4>
+
+            <ul>
+
+                <li><a href="#">about us</a></li>
+
+                <li><a href="#">our services</a></li>
+
+                <li><a href="#">privacy policy</a></li>
+
+                <li><a href="#">affiliate program</a></li>
+
+            </ul>
+
         </div>
-      
-          <div class="row">
-              <ul>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Our Services</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Career</a></li>
-              </ul>
-          </div>
-      
-      <div class="row">
-      <p>INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh</p>
-      </div>
-      </div>
-      </footer> -->
+
+        <div class="footer-col">
+
+            <h4>get help</h4>
+
+            <ul>
+
+                <li><a href="#">FAQ</a></li>
+
+                <li><a href="#">shipping</a></li>
+
+                <li><a href="#">returns</a></li>
+
+                <li><a href="#">order status</a></li>
+
+                <li><a href="#">payment options</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h4>online shop</h4>
+
+            <ul>
+
+                <li><a href="#">watch</a></li>
+
+                <li><a href="#">bag</a></li>
+
+                <li><a href="#">shoes</a></li>
+
+                <li><a href="#">dress</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="social-media">
+    <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    </div>
+
+</div>
+
+</footer>
+
+    </body>
+ 
+  
       <script src="main.js"></script>
 </html>
