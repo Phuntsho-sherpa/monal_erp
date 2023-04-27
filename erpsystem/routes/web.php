@@ -21,6 +21,7 @@ Route::get('/', function () {
     return view('home');
 
 });
+
 Route::get('accounting', function () {
     return view('accounting');
 
