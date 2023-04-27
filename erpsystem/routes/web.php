@@ -13,20 +13,48 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('welcome', function () {
     return view('welcome');
 });
 
-
-Route::get('need', function () {
-    return view('need');
-});
-
-Route::get('home', function () {
+Route::get('/', function () {
     return view('home');
 
 });
-Route::get('footer', function () {
-    return view('footer');
+Route::get('accounting', function () {
+    return view('accounting');
 
 });
+Route::get('crm', function () {
+    return view('crm');
+
+});
+Route::get('inventory', function () {
+    return view('inventory');
+
+});
+Route::get('fleet', function () {
+    return view('fleet');
+
+});
+Route::get('sale', function () {
+    return view('sale');
+
+});
+Route::get('help', function () {
+    return view('help');
+
+});
+Route::get('human', function () {
+    return view('human');
+
+});
+Route::get('asset', function () {
+    return view('asset');
+
+});
+Route::get('enterprise', function () {
+    return view('enterprise');
+
+});
+

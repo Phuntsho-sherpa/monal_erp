@@ -11,3 +11,29 @@ toggleBtn.onclick = function (){
   ? 'fa-solid fa-x'
   :'fa-solid fa-bars'
 }
+
+
+
+// accounting
+
+function fade($ele) {
+  $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {
+      var $next = $(this).next('.quote');
+      fade($next.length > 0 ? $next : $(this).parent().children().first());
+ });
+}
+fade($('.quoteLoop > .quote').first());
+
+
+/*----------------------------------------------------*/
+/* Navigation
+------------------------------------------------------ */
+
+$(window).scroll(function() {
+
+  if ($(window).scrollTop() > 300) {
+      $('.main_nav').addClass('sticky');
+  } else {
+      $('.main_nav').removeClass('sticky');
+  }
+});

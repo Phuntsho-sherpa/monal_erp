@@ -1,23 +1,27 @@
+
+
+/* ALL YOU NEED  */
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 140vh;
+    height: auto;
   }
-
+  
   .h3 {
    text-align: center;
     padding: 150px;
   
    
   }
-
+  
   i {
     font-size: 40px;
     margin-top: -150px;
-    padding: 110px;
+    padding: 120px;
     color:#ec2370;
+   
   }
   
   .icon-with-text-1 {
@@ -26,37 +30,62 @@ body {
     align-items: left;
     text-align: left;
   }
-
+  
   .icon-with-text-1 i {
     font-size: 48px; /* adjust as needed */
     margin-bottom: -80px; /* adjust as needed */
   }
-
-
+  
+  
    .icon-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /*displays the icon 3 in 1 row */
-    gap: 130px;
+    gap: 160px;
     text-align: left;
   }
-
+  
   .icon-grid .icon-with-text {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
+  
   .icon-grid i {
     font-size: 48px;
     margin-bottom: -80px;
   }
+  
 
-
-  a {
-    color: purple;
-    transition: color 0.5s;
+  /* media query for smaller screens */
+  @media (max-width: 768px) {
+    .icon-grid {
+      grid-template-columns: repeat(2, 1fr); /* displays the icon 2 in 1 row */
+      gap: 80px;
+    }
+    
+    .icon-with-text {
+      text-align: center;
+    }
+    
+    .icon-grid i {
+      font-size: 32px;
+      margin-bottom: -40px;
+    }
   }
   
-  a:hover {
-    color: green;
+  /* media query for even smaller screens */
+  @media (max-width: 480px) {
+    .icon-grid {
+      grid-template-columns: 1fr; /* displays the icon 1 in 1 row */
+      gap: 40px;
+    }
+    
+    .icon-grid .icon-with-text {
+      margin-bottom: 40px;
+    }
+    
+    .icon-grid i {
+      font-size: 24px;
+      margin-bottom: -20px;
+    }
   }
