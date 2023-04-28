@@ -21,8 +21,8 @@
   <div class="title">
     <div><span class="typcn typcn-heart-outline icon heading"></span></div>
     <div class="smallsep heading"></div>
-    <h1 class="heading"> Clean & Simple</h1>
-    <h2 class="heading">Lorem ipsum dolor sit amet</h2>
+    <h1 class="heading"> Human Resources</h1>
+    <h2 class="heading">Being Resourceful is always best</h2>
     <a class="smoothscroll" href="#about">
     <div class="mouse">
       <div class="wheel"></div>
@@ -43,29 +43,30 @@
     <div class="row">
       <h1>About</h1>
       <div class="block"></div>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <p>Human resources, often abbreviated as HR, refers to the department within an organization
+         that is responsible for managing the workforce. The primary function of HR is to support the 
+         organization's goals and objectives by recruiting, training, and developing employees, as well as
+          managing employee benefits, compensation, and performance evaluations.</p>
     </div>
-    <div class="row">
-      <div class="six columns">
-        <h3><span class="typcn typcn-device-desktop icon"></span>Our Process</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      </div>
-      <div class="six columns">
-        <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      </div>
       <div class="row">
         <div class="six columns">
           <h3><span class="typcn typcn-cog-outline icon"></span>Our Goal</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>Employee Engagement and Satisfaction: HR plays a critical role in creating a positive work environment that promotes employee 
+            engagement and satisfaction. This involves implementing policies and programs that support 
+            work-life balance, offering employee recognition and rewards programs, and fostering a culture of teamwork,
+             collaboration, and communication.</p>
+             <img src ="image/human.jpeg">
         </div>
         <div class="six columns">
           <h3><span class="typcn typcn-lightbulb icon"></span>Our Mission</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>The mission of the HR department is to attract, retain, and develop a skilled and motivated workforce that supports the organization's goals and objectives. HR plays a critical role in ensuring that the 
+            organization has the talent and resources necessary to succeed in a competitive business environment. 
+            HR's mission is to create a positive work environment that supports employee engagement, growth, and development
+             while promoting a culture of diversity, equity, and inclusion.</p>
         </div>
       </div>
     </div>
-  </div>
+  
 </section>
 
 </body>

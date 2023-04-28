@@ -21,8 +21,8 @@
   <div class="title">
     <div><span class="typcn typcn-heart-outline icon heading"></span></div>
     <div class="smallsep heading"></div>
-    <h1 class="heading"> Clean & Simple</h1>
-    <h2 class="heading">Lorem ipsum dolor sit amet</h2>
+    <h1 class="heading"> Customer Relationship Management</h1>
+    <h2 class="heading">We will keep your information updated.</h2>
     <a class="smoothscroll" href="#about">
     <div class="mouse">
       <div class="wheel"></div>
@@ -79,20 +79,21 @@ with customers and engage with them in a personalized and relevant way. This can
       </div>
       <div class="six columns">
         <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
-        <p> customer-centric strategy that puts the customer at the center of all business activities. 
+        <p> Customer-centric strategy that puts the customer at the center of all business activities. 
           This means that businesses focus on understanding their customers' needs and 
           preferences and tailoring their products, services, and marketing efforts to meet those needs. The approach also involves the use of technology and data analytics to gather and analyze customer data, which can be used to improve the customer experience and identify areas for growth and improvement.</p>
       </div>
       <div class="row">
         <div class="six columns">
           <h3><span class="typcn typcn-cog-outline icon"></span>Our Goal</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>To improve business performance by increasing customer retention, reducing customer churn, and increasing revenue and profitability. 
+            By implementing a customer-centric approach and focusing on building strong relationships with customers, businesses can improve customer retention rates and reduce the cost of acquiring new customers. Additionally, by using customer data and analytics to personalize marketing and sales efforts, businesses can increase the effectiveness of their campaigns and drive revenue growth.</p>
         </div>
         <div class="six columns">
           <h3><span class="typcn typcn-lightbulb icon"></span>Our Mission</h3>
-          <p> to improve business performance by increasing customer retention, reducing customer churn, and increasing revenue and profitability. By implementing a customer-centric approach and focusing on building strong relationships with customers, 
-            businesses can improve customer retention rates and reduce the cost of acquiring new customers. Additionally, 
-            by using customer data and analytics to personalize marketing and sales efforts, businesses can increase the effectiveness of their campaigns and drive revenue growth.</p>
+          <p> To build and maintain strong, long-lasting relationships with customers. This involves providing excellent customer service and support, personalized communication,
+             and relevant marketing and sales efforts. By focusing on building strong relationships with customers, businesses can 
+             increase customer satisfaction, loyalty, and advocacy, which can ultimately drive business growth and profitability.</p>
         </div>
       </div>
     </div>

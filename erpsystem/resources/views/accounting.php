@@ -52,8 +52,9 @@
         <h3><span class="typcn typcn-device-desktop icon"></span>Our Process</h3>
         <p>An ERP system ensures that your accounting is automated. It simplifies operations related to accounts receivable, accounts payable, improves cash flow problems, and cash management. 
             It becomes pretty easier to manage the entire organization by generating information and compiling it.</p>
-      </div>
-
+            <img src ="image/financial.jpg" class="image">
+          </div>
+     
       <div class="six columns">
         <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
         <p>to help dealing with these
@@ -67,6 +68,7 @@ several components that together manage and report financial data (Woods & Sangs
              You could use customer satisfaction surveys to measure progress and set targets for improvement.</p>
         </div>
         <div class="six columns">
+       
           <h3><span class="typcn typcn-lightbulb icon"></span>Our Mission</h3>
           <p>Customer Success: Your mission should focus on ensuring that your clients succeed in their business objectives by leveraging the ERP system to its fullest potential. You should strive to 
             become a trusted advisor to your clients and provide them with the necessary support to achieve their desired outcomes.</p>

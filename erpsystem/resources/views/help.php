@@ -21,8 +21,8 @@
   <div class="title">
     <div><span class="typcn typcn-heart-outline icon heading"></span></div>
     <div class="smallsep heading"></div>
-    <h1 class="heading"> Clean & Simple</h1>
-    <h2 class="heading">Lorem ipsum dolor sit amet</h2>
+    <h1 class="heading"> HELP DESK</h1>
+    <h2 class="heading">We are here to support you.</h2>
     <a class="smoothscroll" href="#about">
     <div class="mouse">
       <div class="wheel"></div>
@@ -43,26 +43,27 @@
     <div class="row">
       <h1>About</h1>
       <div class="block"></div>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <p>Support system that provides technical assistance and customer support for a product, service, 
+        or organization. It is often staffed by a team of trained professionals who are responsible for 
+        receiving and responding to customer inquiries and issues.</p>
     </div>
     <div class="row">
       <div class="six columns">
         <h3><span class="typcn typcn-device-desktop icon"></span>Our Process</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>The help desk can provide support to customers through various channels, such as phone, email, chat, 
+          or a web-based ticketing system. They typically handle a wide range of issues, 
+          including technical support, troubleshooting, product information, billing inquiries, and more.</p>
       </div>
-      <div class="six columns">
-        <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-      </div>
+       
+      <img src ="image/help.jpg">
       <div class="row">
         <div class="six columns">
           <h3><span class="typcn typcn-cog-outline icon"></span>Our Goal</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>To provide timely and effective support to customers, which can help to improve customer satisfaction, retention, 
+            and loyalty. Help desks can also gather feedback from customers, identify trends in support requests, 
+            and provide valuable insights to the organization to improve its products, services, and processes.</p>
         </div>
-        <div class="six columns">
-          <h3><span class="typcn typcn-lightbulb icon"></span>Our Mission</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </div>
+       
       </div>
     </div>
   </div>

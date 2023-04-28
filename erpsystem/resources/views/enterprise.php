@@ -21,8 +21,8 @@
   <div class="title">
     <div><span class="typcn typcn-heart-outline icon heading"></span></div>
     <div class="smallsep heading"></div>
-    <h1 class="heading"> Clean & Simple</h1>
-    <h2 class="heading">Lorem ipsum dolor sit amet</h2>
+    <h1 class="heading"> Enterprise Resource Planning</h1>
+    <h2 class="heading">Better plan for you future.</h2>
     <a class="smoothscroll" href="#about">
     <div class="mouse">
       <div class="wheel"></div>
@@ -43,7 +43,10 @@
     <div class="row">
       <h1>About</h1>
       <div class="block"></div>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <p>Enterprise Resource Planning (ERP) is a type of software that enables businesses to manage and 
+        integrate their core business processes in a single system. This includes managing various business 
+        operations such as finance, accounting, procurement, human resources, inventory management, and customer 
+        relationship management.</p>
     </div>
     <div class="row">
       <div class="six columns">
@@ -60,21 +63,21 @@ operational and financial processes."(Source: Gartner's Research Note SPA-12-042
       <div class="six columns">
         <h3><span class="typcn typcn-pen icon"></span>How will ERP system benefit you and your organization?</h3>
         <p>1. GET    - Acquire profitable customers.<br>
-2. KEEP  - Retain profitable customers longer.
-                - Win back profitable customers.<br>
-3. GROW - Up sell additional products in a solution.
-                - Cross sell other products to customers.
-                - Reduce service and operations cost.
+2. KEEP  - Retain profitable customers longer.<br>
+               &nbsp;  &nbsp; &nbsp;- Win back profitable customers.<br>
+3. GROW - Up sell additional products in a solution.<br>
+&nbsp; &nbsp; &nbsp;- Cross sell other products to customers.<br>
+&nbsp; &nbsp; &nbsp;- Reduce service and operations cost.
  </p>
       </div>
       
       <div class="row">
         <div class="six columns">
           <h3><span class="typcn typcn-cog-outline icon"></span>Some of the ERP Modules (Sub-Systems)</h3>
-          <p>1.Supply Chain Management
-            2.Point of Sales (POS)
-            3.Business Intelligence
-            4.Human Resource Management
+          <p>1.Supply Chain Management<br>
+            2.Point of Sales (POS)<br>
+            3.Business Intelligence<br>
+            4.Human Resource Management<br>
           </p>
         </div>
        
