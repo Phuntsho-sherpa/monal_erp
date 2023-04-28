@@ -59,3 +59,8 @@ Route::get('enterprise', function () {
 
 });
 
+Route::get('footer', function () {
+    return view('footer');
+
+});
+

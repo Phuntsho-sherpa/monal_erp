@@ -26,13 +26,6 @@ bxX.addEventListener('click', (e)=> {
     }
 })
 
-<<<<<<< HEAD
-  toggleBtnIcon.classList = isOpen
-  ? 'fa-solid fa-x'
-  :'fa-solid fa-bars'
-}
-
-
 
 // accounting
 
@@ -57,5 +50,3 @@ $(window).scroll(function() {
       $('.main_nav').removeClass('sticky');
   }
 });
-=======
->>>>>>> c22d2292d2d90008af17f32c42cd4f2c652b9776

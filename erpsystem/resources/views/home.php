@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+
+
+ <!-- Footer iCON  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
 integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='style.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
     <header>
+    <h5><span style="color: green;">Monal</span>-<span style="color: pink; ">ERP</span></h5>
         <div class="company-logo">
 
 <img src="image/Monal-ERP-Logo1.png" alt="">
@@ -34,19 +49,29 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
         <!-- HOME SECTION -->
         <section class="container section-1">
           <div class="slogan">
-            <h1 class="company-title">DOWNTOWN TECH LIVER</h1>
+            <h1 class="company-title">Monal-ERP</h1>
             <h2 class="company-slogan">
-              The biggest computer shop in the area where customers come first.
-            </h2>
+              The biggest computer shop in the area where customers come first.<br>
+            </h2><br>
+<p> A software system that helps you run your entire business, supporting 
+              automation and processes in finance, human resources, manufacturing, supply chain, services, procurement, and more.</p>
+            
+
           </div>
           <div class="home-computer-container">
             <img class="home-computer" src="https://dynamics.folio3.com/blog/wp-content/uploads/2021/07/shutterstock_1813827584.jpg" alt="a computer in dark with shadow" class="home-img">
           </div>
         </section>
-   <br> <H3 >Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-      Temporibus beataeam neque delectus. Eos animi iste quibusdam ea optio <br>
-      velit voluptate officia aperiam?</H3>
-  
+        <img src="image/erp.jpg" alt="" class="erp">
+  <br>
+<div class="h1">
+ <p>ALL YOU NEED.</p>
+  <u><h6>Lets build your Future with us.</h6></u>
+</div>
+ 
+
+
+
 <div class="icon-grid">
   <div class="icon-with-text">
     <i class="fa-solid fa-sack-dollar" id="fin" style="color: #f8b704;"></i>
@@ -115,60 +140,61 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
      
 
 
-    </body>
-  <!-- Site footer -->
-  <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h4>About</h4>
-            <p class="text-justify">Scanfcode.com CODE WANTS TO BE SIMPLE  is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
-          </div>
 
-          <div class="col-xs-6 col-md-3">
-            <h4>Categories</h4>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-              <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-              <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-              <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-              <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-              <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
-            </ul>
-          </div>
 
-          <div class="col-xs-6 col-md-3">
-            <h4>Quick Links</h4>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr>
+
+<!-- Site footer -->
+
+
+<!-- Site footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">ERP systems tie together a multitude of business processes and enable the 
+          flow of data between them. By collecting an organization’s shared transactional data from multiple sources,
+           ERP systems eliminate data duplication and provide data integrity with a single source of truth.</p>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-         <a href="#">Scanfcode</a>.
-            </p>
-          </div>
 
-          <!-- <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-            </ul>
-          </div>-->
-        </div>
+      <div class="col-xs-6 col-md-3">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+          <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+          <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+          <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+          <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+          <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+        </ul>
       </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="http://scanfcode.com/about/">About Us</a></li>
+          <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+          <li><a href="#">Contribute</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2017 
+     <a href="#">######</a>.
+        </p>
+      </div>
+     
+    </div>
+  </div>
 </footer>
-
+    </body>
       <script src="main.js"></script>
 </html>
+
+ 
