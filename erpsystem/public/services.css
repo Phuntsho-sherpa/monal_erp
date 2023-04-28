@@ -20,7 +20,6 @@ body {
 }
 
 
-  
 nav {
 	position: fixed;
 	z-index: 10;
@@ -28,17 +27,17 @@ nav {
 	right: 0;
 	top: 0;
 	font-family:'Times New Roman', Times, serif;
-	padding: 0 16%;
+	padding: 0 26%;
 	height: 100px;
 	background-color: #abeeb9;
 }
 
 nav .links {
-	float: right;
-	padding: 8px 16px;
+	float: center;
+	padding: 15px 16px;
 	margin: 0;
-	width: 60%;
-	height: 100%;
+	/* width: 60%;
+	height: 100%; */
 	display: flex;
 	justify-content: space-around;
 	align-items: center;

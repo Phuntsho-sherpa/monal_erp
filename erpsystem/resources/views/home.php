@@ -54,7 +54,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
             <img class="home-computer" src="https://dynamics.folio3.com/blog/wp-content/uploads/2021/07/shutterstock_1813827584.jpg" alt="a computer in dark with shadow" class="home-img">
           </div>
         </section>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_mLez8Dse53yFuMmrlQderDsGCK4Bi0a3QQ&usqp=CAU" alt="" class="erp">
+        <img src="https://live.staticflickr.com/6004/6011613496_537a047292_b.jpg" alt="" class="erp">
   <br>
 <div class="h1" style="font-family:Roboto", sans-serif;> 
  <p>ALL YOU NEED.</p>

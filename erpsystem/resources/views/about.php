@@ -29,7 +29,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
 	<input id="nav-toggle" type="checkbox">
 
 	<ul class="links">
-		<li><a href="#">Home</a></li>
+		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
 		<li><a href="/services">services</a></li>
 		<li><a href="/contact">Contact</a></li>
