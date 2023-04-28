@@ -31,6 +31,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
         <div class="company-logo">
 
 <img src="image/Monal-ERP-Logo1.png" alt="">
+
         </div>
         <nav class="navbar">
           <ul class="nav-items">
