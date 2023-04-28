@@ -14,23 +14,28 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
 </head>
 <body>
     <header>
-    <h5><span style="color: green;">Monal</span>-<span style="color: pink; ">ERP</span></h5>
-        <div class="company-logo">
-
+ 
+  
+    <div id="logo-title" style="color: green;"> <b>Monal</span>-<span style="color: pink; ">ERP</span></b></div>
+<div class="company-logo">
 <img src="image/Monal-ERP-Logo1.png" alt="">
-        </div>
-        <nav class="navbar">
-          <ul class="nav-items">
-            <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">OFFER</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">SHOP</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
-          </ul>
-        </nav>
-        <div class="menu-toggle">
-          <i class="bx bx-menu"></i>
-          <i class="bx bx-x"></i>
-        </div>
+</div>
+ 
+  <nav>
+	<input id="nav-toggle" type="checkbox">
+
+	<ul class="links">
+		<li><a href="#">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/services">services</a></li>
+		<li><a href="/contact">Contact</a></li>
+	</ul>
+	<label for="nav-toggle" class="icon-burger">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</label>
+</nav>
       </header>
       <main>
         <!-- HOME SECTION -->
@@ -49,9 +54,9 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
             <img class="home-computer" src="https://dynamics.folio3.com/blog/wp-content/uploads/2021/07/shutterstock_1813827584.jpg" alt="a computer in dark with shadow" class="home-img">
           </div>
         </section>
-        <img src="image/erp.jpg" alt="" class="erp">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_mLez8Dse53yFuMmrlQderDsGCK4Bi0a3QQ&usqp=CAU" alt="" class="erp">
   <br>
-<div class="h1">
+<div class="h1" style="font-family:Roboto", sans-serif;> 
  <p>ALL YOU NEED.</p>
   <u><h6>Lets build your Future with us.</h6></u>
 </div>
