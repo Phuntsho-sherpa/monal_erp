@@ -25,13 +25,19 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
 </head>
 
 <body>
+ 
 <nav>
-	<input id="nav-toggle" type="checkbox">
+  <input id="nav-toggle" type="checkbox">
 
+<div class="company-logo">
+<img src="image/Monal-ERP-Logo1.png" alt="">
+</div>
+  <div id="logo-title" style="color: #26d4bd;"> <b>Monal</span>-<span style="color: #e8810c; ">ERP</span></b></div> 
+ 
 	<ul class="links">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
-		<li><a href="/services">services</a></li>
+		<li><a href="/services">Services</a></li>
 		<li><a href="/contact">Contact</a></li>
 	</ul>
 	<label for="nav-toggle" class="icon-burger">

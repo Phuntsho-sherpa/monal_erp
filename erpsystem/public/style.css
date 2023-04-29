@@ -52,10 +52,11 @@ header {
   padding: 1rem 2rem;
 }
 .company-logo {
-  height: 100px;
-  width:100px;
+  height: 80px;
+  width:80px;
   margin-right: 1000px;
 }
+
 
 nav {
 	position: fixed;
@@ -66,6 +67,7 @@ nav {
 	font-family:'Times New Roman', Times, serif;
 	padding: 0 16%;
 	height: 100px;
+  background-color: #fdfafa;
 }
 
 nav .links {
@@ -74,6 +76,7 @@ nav .links {
 	margin: 0;
 	width: 60%;
 	height: 100%;
+  margin-top: -100px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -111,7 +114,7 @@ nav .icon-burger .line {
 }
 nav .links a:hover{
   text-decoration: underline ;
-  text-decoration-color: rgb(14, 13, 13);
+  text-decoration-color: rgb(233, 3, 3);
   text-decoration: underline bold;
 }
 

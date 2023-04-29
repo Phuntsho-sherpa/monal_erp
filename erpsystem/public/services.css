@@ -18,6 +18,16 @@ body {
 	color: #776c6c;
 	line-height: 1.5;
 }
+img {
+	width: 100%;
+	height: auto;
+  }
+
+.company-logo {
+  height: 80px;
+  width:80px;
+  margin-right: 1000px;
+}
 
 
 nav {
@@ -27,17 +37,18 @@ nav {
 	right: 0;
 	top: 0;
 	font-family:'Times New Roman', Times, serif;
-	padding: 0 26%;
+	padding: 0 16%;
 	height: 100px;
-	background-color: #abeeb9;
+  background-color: #fdfafa;
 }
 
 nav .links {
-	float: center;
-	padding: 15px 16px;
+	float: right;
+	padding: 8px 16px;
 	margin: 0;
-	/* width: 60%;
-	height: 100%; */
+	width: 60%;
+	height: 100%;
+  margin-top: -100px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -56,6 +67,7 @@ nav .links a {
 #nav-toggle {
 	position: absolute;
 	top: -100px;
+  
 }
 nav .icon-burger {
 	display: none;
@@ -67,14 +79,14 @@ nav .icon-burger {
 nav .icon-burger .line {
 	width: 30px;
 	height: 5px;
-	background-color: #131111;
+	background-color: #030303;
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
 nav .links a:hover{
   text-decoration: underline ;
-  text-decoration-color: red;
+  text-decoration-color: rgb(233, 3, 3);
   text-decoration: underline bold;
 }
 
@@ -96,8 +108,8 @@ nav .links a:hover{
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: rgba(252, 245, 245, 0.8);
 		overflow: hidden;
+    background-color: rgba(252, 245, 245, 0.8);
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
 	}
@@ -109,6 +121,8 @@ nav .links a:hover{
 	}
 	nav .icon-burger {
 		display: block;
+   
+   
 	}
 	nav :checked ~ .icon-burger .line:nth-child(1) {
 		transform: translateY(10px) rotate(225deg);
@@ -121,6 +135,7 @@ nav .links a:hover{
 	}
 	
 }
+
 .inbound-guides {
 	margin: 130px auto 10px auto;
 }

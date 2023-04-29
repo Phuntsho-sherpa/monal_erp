@@ -37,15 +37,22 @@
 <body>
 
  
-<nav>
-	<input id="nav-toggle" type="checkbox">
 
-	<ul class="links">
+ 
+<nav>
+  <input id="nav-toggle" type="checkbox">
+
+<div class="company-logo">
+<img src="image/Monal-ERP-Logo1.png" alt="">
+</div>
+  <div id="logo-title" style="color: #26d4bd;"> <b>Monal</span>-<span style="color: #e8810c; ">ERP</span></b></div> 
+ 
+	<B><ul class="links">
 		<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
-		<li><a href="/services">services</a></li>
+		<li><a href="/services">Services</a></li>
 		<li><a href="/contact">Contact</a></li>
-	</ul>
+	</ul></B>
 	<label for="nav-toggle" class="icon-burger">
 		<div class="line"></div>
 		<div class="line"></div>
@@ -74,7 +81,7 @@
 
 					<h2>Get In Touch</h2>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					<p>Message us for any inquries</p>
 
 				</div>
 
