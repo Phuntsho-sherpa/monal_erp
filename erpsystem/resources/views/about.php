@@ -66,9 +66,19 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
                           <h2>We Are The Leader In <br> The Interiores</h2>
 
                         </div>
-                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</div>
+                        <div class="text">Welcome to ERP Monal, the leading provider of enterprise resource planning software for businesses of all sizes. Our mission is to help our clients streamline their operations, increase productivity, and improve profitability through our state-of-the-art software solutions. <br>
 
-                        <div class="email">Request Quote: <span class="theme_color">freequote@gmail.com</span></div>
+Our company was founded in 2005 by a team of experienced software developers who saw the need for an ERP system that was both powerful and easy to use. Since then, <br> we have helped hundreds of businesses across a variety of industries to optimize their operations, reduce costs, and improve customer satisfaction. <br>
+
+At ERP Monal, we are committed to delivering the highest level of customer service and support. <br> Our team of experts is dedicated to ensuring that our clients receive the guidance and assistance they need to get the most out of our software.  <br>
+ 
+Our software is designed to be flexible, scalable, and customizable, so that it can be tailored to meet the specific needs of each individual business. <br> Our solutions include modules for accounting, inventory management, production planning, CRM, and more, all integrated into a single, user-friendly platform. <br>
+
+At ERP Monal, we are committed to building long-term relationships with our clients based on trust, transparency, and mutual success. <br> We believe that our success is directly tied to the success of our clients, and we are proud to have helped so many businesses achieve their goals. <br>
+
+Thank you for considering ERP Monal as your ERP software provider. If you have any questions or would like to learn more about our software solutions, please don't hesitate to contact us. <br> We look forward to hearing from you!</div> 
+
+                        <div class="email">Message: <span class="theme_color">athang@gmail.com</span></div>
 
                         <a href="about.html" class="theme-btn btn-style-three">Read More</a>
 
@@ -166,12 +176,12 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
             <div class="faq-item">
 
               <h3>
-                What is an FAQ page ?
+                Who build the monal_erp website ?
                 <span class="faq-plus">&plus;</span>
               </h3>
 
               <div class="faq-body">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                website was made by athang and its team.
               </div>
 
             </div>
@@ -180,12 +190,12 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
             <div class="faq-item">
 
               <h3>
-                What is an FAQ page ?
+                Why should i use this website  ?
                 <span class="faq-plus">&plus;</span>
               </h3>
 
               <div class="faq-body">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+               You should use this website because its authentic,reliable and orginized by government.
               </div>
 
             </div>
