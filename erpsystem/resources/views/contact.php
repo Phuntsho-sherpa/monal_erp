@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" type="text/css" href="contact.css">
 
-
+	<link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
 
 	<!-- *******  Font Awesome Icons Link  ******* -->
 
@@ -131,7 +131,7 @@
 
 							<span>Email</span>
 
-							<span>name.tutorial@gmail.com</span>
+							<span>monalerp123@gmail.com</span>
 
 						</div>
 
@@ -282,9 +282,7 @@
 	
 <div class="col-md-8 col-sm-6 col-xs-12">
 <hr>
-        <p class="copyright-text">Copyright &copy; 2017 
-     <a href="#">######</a>.
-        </p>
+<p>©2005-2023 Athang IC Tech. All Rights Reserved. <p>
       </div>
 </div>
 </body>

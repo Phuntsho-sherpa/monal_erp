@@ -579,7 +579,8 @@ text-align:right
 
 .copyright-text
 {
-margin:0
+margin:0;
+padding-left: 300px;
 }
 
 

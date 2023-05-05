@@ -8,7 +8,7 @@
 <!--GOOGLE FONTS-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
-
+<link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
 
  <!-- Footer iCON  -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,7 +28,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
 <body>
     <!-- Header Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+<title>CRM</title>
 <header id="header">
   <div class="main_nav">
     <div class="container">
@@ -54,92 +54,41 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
   <div class="scroll-down"></div>
   </a> </header>
 
-
+  <?php include('home/crm.html'); ?>
 
    
 <!-- About Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
   
-<section id="about">
-  <div class="container">
-    <div class="row">
-      <h1>About</h1>
-      <div class="block"></div>
-      <p><b>Customer Relationship Management</b> allows businesses to centralize customer information, track customer interactions across multiple channels (such as email, phone, social media, and in-person interactions), and use this information to better understand and serve their customers. By analyzing 
-      customer data, businesses can identify trends, anticipate customer needs, and personalize their interactions with customers.</p>
-    </div>
-    <div class="row">
-      <div class="six columns">
-        <h3><span class="typcn typcn-device-desktop icon"></span>Our Process</h3>
-        <p>The CRM process involves several stages, which can vary depending on the specific needs and goals of a business.
-           Generally, the process includes the following stages:<br>
 
-1.Data collection: The first stage of the CRM process involves collecting data on customers, 
-such as their contact information, purchase history, and preferences. This data can be collected through 
-various channels, such as online forms, surveys, and social media.<br>
-
-2.Data analysis: Once the data is collected, the next stage involves analyzing it to gain insights 
-into customer behavior and preferences. This can be done using data mining and analysis tools, which can
- identify patterns and trends in the data.<br>
-
-3.Customer segmentation: Based on the insights gained from the data analysis, businesses can segment their 
-customers into different groups based on their needs and behaviors. This allows them to personalize their marketing 
-and sales efforts to each segment.<br>
-
-
-
-      </div>
-      <div class="six columns">
-        <h3><span class="typcn typcn-pen icon"></span>Our Approach</h3>
-        <p> Customer-centric strategy that puts the customer at the center of all business activities. 
-          This means that businesses focus on understanding their customers' needs and 
-          preferences and tailoring their products, services, and marketing efforts to meet those needs. The approach also involves the use of technology and data analytics to gather and analyze customer data, which can be used to improve the customer experience and identify areas for growth and improvement.</p>
-      </div>
-      <div class="row">
-        <div class="six columns">
-          <h3><span class="typcn typcn-cog-outline icon"></span>Our Goal</h3>
-          <p>To improve business performance by increasing customer retention, reducing customer churn, and increasing revenue and profitability. 
-            By implementing a customer-centric approach and focusing on building strong relationships with customers, businesses can improve customer retention rates and reduce the cost of acquiring new customers. Additionally, by using customer data and analytics to personalize marketing and sales efforts, businesses can increase the effectiveness of their campaigns and drive revenue growth.</p>
-        </div>
-        <div class="six columns">
-          <h3><span class="typcn typcn-lightbulb icon"></span>Our Mission</h3>
-          <p> To build and maintain strong, long-lasting relationships with customers. This involves providing excellent customer service and support, personalized communication,
-             and relevant marketing and sales efforts. By focusing on building strong relationships with customers, businesses can 
-             increase customer satisfaction, loyalty, and advocacy, which can ultimately drive business growth and profitability.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+<!-- Site footer -->
 <footer class="site-footer">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6">
         <h6>About</h6>
-        <p class="text-justify">ERP systems tie together a multitude of business processes and enable the 
+        <p class="text-justify"> Learn about Athang services, products, view online updates, get the latest resource downloads, and more. Connect with Athang employees, or get services, supports, and professional advice from Athang. <br> ERP systems tie together a multitude of business processes and enable the 
           flow of data between them. By collecting an organization’s shared transactional data from multiple sources,
            ERP systems eliminate data duplication and provide data integrity with a single source of truth.</p>
       </div>
 
       <div class="col-xs-6 col-md-3">
-        <h6>Categories</h6>
+        <h6>Location</h6>
         <ul class="footer-links">
-          <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-          <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-          <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
-          <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
-          <li><a href="http://scanfcode.com/category/android/">Android</a></li>
-          <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+          <li>Babena, Below Dechen Phodrang Monastery.</li>
+          <li>Thimphu: Bhutan</li>
+          <li>Phone: +975 02 333849/333655</li>
+          <li>Mobile: +975 17110989/17115890</li>
+          <li>Post Box: 1456</li>
+          <li>Email: info@athang.com / karma@athang.com</li>
         </ul>
       </div>
 
       <div class="col-xs-6 col-md-3">
         <h6>Quick Links</h6>
         <ul class="footer-links">
-          <li><a href="http://scanfcode.com/about/">About Us</a></li>
-          <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+          <li><a href="https://www.athang.com/public/w">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           <li><a href="#">Contribute</a></li>
           <li><a href="#">Privacy Policy</a></li>
           <li><a href="#">Sitemap</a></li>
@@ -151,11 +100,10 @@ and sales efforts to each segment.<br>
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2017 
-     <a href="#">######</a>.
+        <p class="copyright-text"> ©2005-2023  &copy; Athang IC Tech. All Rights Reserved. 
         </p>
       </div>
-     
+      
     </div>
   </div>
 </footer>
