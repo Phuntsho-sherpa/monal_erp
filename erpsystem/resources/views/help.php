@@ -77,7 +77,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
       <div class="col-xs-6 col-md-3">
         <h6>Quick Links</h6>
         <ul class="footer-links">
-          <li><a href="https://www.athang.com/public/w">About Us</a></li>
+          <li><a href="https://www.athang.com/public/w/aboutus">About Us</a></li>
           <li><a href="/contact">Contact Us</a></li>
           <li><a href="#">Contribute</a></li>
           <li><a href="#">Privacy Policy</a></li>
