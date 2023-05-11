@@ -1,4 +1,10 @@
 
+<DOCTYPE HTML>
+<html>
+<head>
+<link href="welcome.css" rel="stylesheet">
+</head>
+    <body>
 <!--         
 
 
@@ -24,107 +30,58 @@
   </form>
 </div> -->
 
-<!DOCTYPE html>
-<html>
+  
 
-<head>
-  <title>EMPLOYEE MANAGMENT SYSTEM</title>
-  <script src="home.js"></script>
-  <link href="home.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-       
-        
-      </div>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <legend>EMPLOYEE MANAGMENT SYSTEM</legend>
+<!-- Site footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify"> Learn about Athang services, products, view online updates, get the latest resource downloads, and more. Connect with Athang employees, or get services, supports, and professional advice from Athang. <br> ERP systems tie together a multitude of business processes and enable the 
+          flow of data between them. By collecting an organization’s shared transactional data from multiple sources,
+           ERP systems eliminate data duplication and provide data integrity with a single source of truth.</p>
       </div>
 
+      <div class="col-xs-6 col-md-3">
+        <h6>Location</h6>
+        <ul class="footer-links">
+          <li>Babena, Below Dechen Phodrang Monastery.</li>
+          <li>Thimphu: Bhutan</li>
+          <li>Phone: +975 02 333849/333655</li>
+          <li>Mobile: +975 17110989/17115890</li>
+          <li>Post Box: 1456</li>
+          <li>Email: info@athang.com / karma@athang.com</li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="https://www.athang.com/public/w">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="#">Contribute</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
     </div>
-  </nav>
-
-  <br>
-
-  <table class="table">
-    <thead>
-      <tr class="table-primary">
-        <th scope="col">Sl.no</th>
-        <th scope="col">Registered Date</th>
-        <th scope="col">ID</th>
-        <th scope="col">NAME</th>
-        <th scope="col">EDIT</th>
-        <th scope="col">DELETE</th>
-      </tr>
-    </thead>
-
-    <tbody id="myTable">
-
-    </tbody>
-
-  </table>
-
-  <div class="btn-container">
-    <button onclick="location.href='/add'" type="button" class="btn btn-outline-primary">Add</button>
+    <hr>
   </div>
-  <script>
-    let empArray = JSON.parse(localStorage.getItem("empArray"));
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text"> ©2005-2023  &copy; Athang IC Tech. All Rights Reserved. 
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
 
-    const tableBody = document.getElementById('myTable');
-    for (let i = 1; i < empArray.length; i++) {
-      const row = document.createElement('tr');
-      const slColumn = document.createElement('td');
-      const dateColumn = document.createElement('td');
-      const idColumn = document.createElement('td');
-      const nameColumn = document.createElement('td');
-      const editColumn = document.createElement('td');
-      const deleteColumn = document.createElement('td');
 
-      slColumn.textContent = i + 0;
-      dateColumn.textContent = empArray[i].empDate;
-      idColumn.textContent = 'EM-' + i;
-      nameColumn.textContent = empArray[i].empName;
-
-      editColumn.setAttribute('id', i);
-      editColumn.innerHTML = '<a href="/update " class="edit" id="edit"></i>Edit</a>'
-      editColumn.addEventListener('click', () => {
-        let dataToEdit = empArray[i];
-        localStorage.setItem('editId', i);
-        alert('You are going to edit an employee record.');
-      })
-
-      deleteColumn.setAttribute('id', i);
-      deleteColumn.innerHTML = '<a href="/welcome" class="delete"></i>Delete</a>'
-      deleteColumn.addEventListener('click', () => {
-        if (confirm(' you want to delete this employee record?')) {
-          empArray.splice(i, 1);
-          localStorage.setItem('empArray', JSON.stringify(empArray));
-          alert('Are you sure?.');
-        }
-      })
-
-      row.appendChild(slColumn);
-      row.appendChild(dateColumn);
-      row.appendChild(idColumn);
-      row.appendChild(nameColumn);
-      row.appendChild(editColumn);
-      row.appendChild(deleteColumn);
-
-      tableBody.appendChild(row);
-    };
-  </script>
-
-</body>
+    </body>
 
 </html>
+
+
