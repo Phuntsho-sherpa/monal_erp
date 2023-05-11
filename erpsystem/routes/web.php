@@ -79,3 +79,13 @@ Route::get('contact', function () {
 
 });
 
+Route::get('add', function () {
+    return view('add');
+
+});
+
+Route::get('update', function () {
+    return view('update');
+
+});
+
