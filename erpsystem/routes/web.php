@@ -79,13 +79,20 @@ Route::get('contact', function () {
 
 });
 
-Route::get('add', function () {
-    return view('add');
+Route::get('recrutment', function () {
+    return view('recrutment');
 
 });
 
-Route::get('update', function () {
-    return view('update');
+
+Route::get('training', function () {
+    return view('training');
 
 });
 
+
+
+Route::get('form', function () {
+    return view('form');
+
+});

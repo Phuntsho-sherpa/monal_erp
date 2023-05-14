@@ -11,8 +11,8 @@ background-color: #EEE;
 }
 .container {
 position: relative;
-width: 450px;
-height: 330px;
+width: 550px;
+height: 630px;
 background-color: #FFF;
 margin: 150px auto;
 border-radius: 6px;
@@ -75,14 +75,84 @@ border-color: #f8f8f86b;
 display: flex;
 justify-content: space-between;
 width: 390px;
+height: 30px;
 margin: 0 auto;
 background-color: #F6F6F6;
 padding: 0 15px;
 }
+
+.social .two {
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    padding: 0 15px;
+    }
 .social .one {
-margin-bottom: 5px;
+margin-bottom: 15px;
 }
 .social p {
 font-size: 15px;
 }
 
+
+/* form */
+
+.form-title{
+    margin-bottom: 10rem;
+}
+
+.form-control{
+    border-radius: 1rem;
+    padding: 0 3.5rem;
+}
+
+.mybtn{
+    margin-top: 1rem;
+}
+button{
+    border-radius: 0;
+}
+
+.mybtn:hover{
+    background-color:#78e08f;
+  }
+
+input:hover{
+    border: 2px solid #ced6e0;
+}
+
+textarea:hover{
+    border: 2px solid #ced6e0;
+}
+
+
+.error {
+    background-color: #ff4757;
+  }
+  
+  .send {
+    background-color :#78e08f;
+    padding: 5rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  #instructions {
+    color: white;
+  }
+  a.btn {
+	text-decoration: none;
+	background-color: #9c63e6;
+	color: #fff;
+	padding: 12px 25px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+a.btn:hover {
+	border: 2px solid #74c485;
+	background-color: #fff;
+	color: #74c485;
+}

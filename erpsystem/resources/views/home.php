@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- Google Web Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
   <link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
  
 <!-- Footer iCON  -->
@@ -66,76 +82,164 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
 </div>
  
 
+     
 
-<div class="icon-grid">
-  <div class="icon-with-text">
-   <a href="#" ><i class="fa-solid fa-sack-dollar" class="icons" style="color: #f8b704;"></i> </a>
-    <h4>Financial Management</h4>
-    <p>At the core of ERP are the financial <br>
+<div class="mm"></div>
+<section class="card-section">
+  <div class="row">
+    <div class="col-md-4">
+
+      <div class="card featured-icon-card signpost">
+        <div class="featured-icon-container">
+          <i class="fa fa-dollar fa-bs-responsive"></i>
+        </div>
+        <div class="featured-icon-textbox">
+          <h5>FINANCIAL MANAGEMENT</h5>
+          <p class="p">At the core of ERP are the financial <br>
     modules, including  generalledger,accounts <br>
     receivable, accounts payable, billing... </p>
   <a href="/accounting">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
- 
-  <div class="icon-with-text">
-  <a href="#" > <i class="fa-solid fa-eye" class="icons" style="color: #3584e4;"></i></a>
-    <h4>CRM</h4>
-    <p>Retain more customers by optimizing the sales <br>
+        </div>
+      </div>
+
+    </div>
+    <!--End col-md-4-->
+    <div class="col-md-4">
+      <div class="card featured-icon-card">
+        <div class="featured-icon-container">
+          <i class="fa fa-vcard fa-bs-responsive"></i>
+        </div>
+        <div class="featured-icon-textbox">
+          <h5>CRM</h5>
+          <p class="p">Retain more customers by optimizing the sales <br>
     process. Track the leads, opportunites...</p>
     <a href="/crm">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-  <div class="icon-with-text">
-  <a href="#" >  <i class="fa-solid fa-headphones-simple" class="icons" style="color: #9141ac;"></i></a>
-  <h4>Help Desk</h4>
-    <p>Deliver a better service experience with an intuitive 
-    issue tracker and an integrated knowledge base..</p>
-    <a href="/help">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-  <div class="icon-with-text">
-  <a href="#" > <i class="fa-solid fa-list-check" class="icons" style="color: #ec2370;"></i></a>
-  <h4>Inventory Management</h4>
-    <p>Inventory Management and control is the <br>combination of information technology and business  
+        </div>
+      </div>
+
+    </div>
+    <!--End col-md-4-->
+    <div class="col-md-4">
+
+      <div class="card featured-icon-card">
+        <div class="featured-icon-container">
+          <i class="fa-solid fa-headphones-simple fa-bs-responsive"></i>
+        </div>
+        <div class="featured-icon-textbox">
+          <h5>INVENTORY MANAGEMENT</h5>
+          <p class="p"> Inventory Management and control is the <br>combination of information technology and business  
     processes of maintaining </p>
     <a href="/inventory">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-  <div class="icon-with-text">
-  <a href="#" ><i class="fa-regular fa-handshake" class="icons" style="color: #39d7c1;"></i></a>
-  <h4>Human Resources</h4>
-    <p>Human resource management ERP modules should enhance 
+        </div>
+      </div>
+
+    </div>
+    <!--End col-md-4-->
+    <div class="col-md-4">
+
+      <div class="card featured-icon-card">
+        <div class="featured-icon-container">
+          <i class="fa-regular fa-handshake fa-bs-responsive"></i>
+        </div>
+        <div class="featured-icon-textbox">
+          <h5>HUMAN RESOURCES</h5>
+          <p class="p">Human resource management ERP modules should enhance 
     the employee experience – from initial recruitment to time tracking</p>
     <a href="/human">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-  <div class="icon-with-text">
-  <a href="#" > <i class="fa-solid fa-network-wired" class="icons" style="color: #b5835a;"></i></a>
-  <h4>Asset Management</h4>
-    <p>Asset management is a systematic process of <br>
+        </div>
+      </div>
+
+    </div>
+    <!--End col-md-4-->
+    <div class="col-md-4">
+
+      <div class="card featured-icon-card">
+        <div class="featured-icon-container">
+          <i class="fa-solid fa-network-wired fa-bs-responsive"></i>
+        </div>
+        <div class="featured-icon-textbox">
+          <h5>ASSET MANAGEMENT</h5>
+          <p class="p">Asset management is a systematic process of 
     developing, operating, maintaining, upgrading,</p>
     <a href="/asset">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-  <div class="icon-with-text">
-  <a href="#" ><i class="fa-solid fa-layer-group" class="icons" style="color: #f36f03;"></i> </i></a>
-  <h4>Point of Sales</h4>
-    <p>The selling of goods which will take care of<br> schemes & discounts, and even claims.</p>
+        </div>
+      </div>
+
+    </div>
+    <!--End col-md-4-->
+    <div class="col-md-4">
+
+      <div class="card featured-icon-card">
+        <div class="featured-icon-container">
+          <i class="fa-solid fa-layer-group fa-bs-responsive"></i>
+        </div>
+        <div class="featured-icon-textbox">
+          <h5>POINT OF SALES</h5>
+          <p class="p">The selling of goods which will take care of schemes & discounts, and even claims..</p><br>
     <a href="/sale">learn more<span style="color: #3584e4;">&#8594;</span></a>
+        </div>
+      </div>
+
+    </div>
+    <!--End col-md-4-->
+
+      <!--End col-md-4-->
+      <div class="col-md-4">
+
+<div class="card featured-icon-card">
+  <div class="featured-icon-container">
+    <i class="fa-solid fa-truck fa-bs-responsive"></i>
   </div>
-  <div class="icon-with-text">
-  <a href="#" ><i class="fa-solid fa-truck" class="icons" style="color: #9a9996;"></i></a>
-  <h4>Fleet Management</h4>
-    <p>POL management of pool vehicles and load vehicles 
+  <div class="featured-icon-textbox">
+    <h5>FLEET MANAGEMENT</h5>
+    <p class="p">POL management of pool vehicles and load vehicles 
     including the maintainese cost and the tyres changes for the vechicle.</p>
     <a href="/fleet">learn more<span style="color: #3584e4;">&#8594;</span></a>
   </div>
-  <div class="icon-with-text">
-  <a href="#" ><i class="fa-solid fa-book-open" class="icons" style="color: #5eff2d;"></i></a>
-  <h4>Enterprise Resource Planning</h4>
-    <p>An Enterpirse is a group of people with a common goal, which has certail resources at its disposal to achieve that </p>
+</div>
+
+</div>
+<!--End col-md-4-->
+
+  <!--End col-md-4-->
+  <div class="col-md-4">
+
+<div class="card featured-icon-card">
+  <div class="featured-icon-container">
+    <i class="fa-solid fa-book-open fa-bs-responsive"></i>
+  </div>
+  <div class="featured-icon-textbox">
+    <h5>ENTERPRISE RESOURCE PLANNING </h5>
+    <p class="p">An Enterpirse is a group of people with a common goal, which has certail resources at its disposal to achieve that </p>
     <a href="/enterprise">learn more<span style="color: #3584e4;">&#8594;</span></a>
   </div>
 </div>
-     
+
+</div>
+<!--End col-md-4-->
+
+  <!--End col-md-4-->
+  <div class="col-md-4">
+
+<div class="card featured-icon-card">
+  <div class="featured-icon-container">
+    <i class="fa-solid fa-headphones-simple fa-bs-responsive"></i>
+  </div>
+  <div class="featured-icon-textbox">
+    <h5>HELP DESK</h5>
+    <p class="p">Deliver a better service experience with an intuitive 
+    issue tracker and an integrated knowledge base..</p>
+    <a href="/help">learn more<span style="color: #3584e4;">&#8594;</span></a>
+  </div>
+</div>
+
+</div>
+<!--End col-md-4-->
+
+  </div>
 
 
-
+</section>
 
 
 

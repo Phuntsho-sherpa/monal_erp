@@ -16,7 +16,7 @@
  <link href='style.css' rel='stylesheet'>
      <title>Monal-ERP</title>
 
-     <link href='human.css' rel='stylesheet'>
+     <link href='training.css' rel='stylesheet'>
      
  </head>
  <body>
@@ -87,7 +87,7 @@ Leaves, Attendances, etc.
       <h2 class="empo-1">TRAINING&nbsp;&&nbsp;DEVELOPMENT</h2><br>
       <p class="empo-2">Training and development in Human Resource Management (HRM) refers to a system of educating employees within a company. It includes various tools, instructions, and activities designed 
         to improve employee performance. It's an opportunity for employees to increase their knowledge and upgrade their skills.</p><br>
-      <a class="btn-3" href="/training">LEARN MORE</a>
+      <a class="btn-3" href="/form">LEARN MORE</a>
 
       <h1 class="empo" id="employee-history">EMPLOYE MANAGEMENT</h1>
      
@@ -107,8 +107,7 @@ Leaves, Attendances, etc.
 					<img
 						class="card-img"
 						src="/image/record.png"
-						alt=""
-					/>
+						alt=""/>
 					<div class="card-content">
 						<h1 class="card-header">Employe History</h1>
 						<p class="card-text">
