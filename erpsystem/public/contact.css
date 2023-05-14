@@ -6,7 +6,7 @@
 
 	box-sizing: border-box;
 
-	font-family: 'Open Sans', sans-serif;
+	
 
 }
 
@@ -19,6 +19,8 @@ body{
 	background-color: #faf5f5;
 
 	color: rgb(247, 244, 244);
+	
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -53,7 +55,8 @@ nav .links {
 	margin: 0;
 	width: 60%;
 	height: 100%;
-  margin-top: -100px;
+  margin-top: -97px;
+  font-family: 'Open Sans', sans-serif;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -144,8 +147,8 @@ nav .links a:hover{
 
 	width: 100%;
 	
-
 	min-height: 100vh;
+
 
 	display: flex;
 
@@ -166,6 +169,7 @@ nav .links a:hover{
 	width: 100%;
 
 	max-width: 1100px;
+	
 
 }
 
@@ -216,6 +220,7 @@ section.left .contactTitle h2::before{
 	width: 50%;
 
 	height: 1px;
+
 
 	background-color: #7e7575;
 
