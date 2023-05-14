@@ -105,7 +105,7 @@
                   </div>
                   <div>
                     <img class="img" src="https://www.allrecipes.com/thmb/EwaCH1PTxl2VZovGgw1A1n1g1Eo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg" alt="How to Create an E-Book" alt="LinkedIn Marketing">
-                    <h3>Inventory_Control</h3>
+                    <h3>Inventory_Controls</h3>
                     <p>ERP consulting is the process of providing expert guidance and advice to businesses on ERP system selection, implementation, customization, and ongoing support and maintenance. </p>
                     
                   </div>

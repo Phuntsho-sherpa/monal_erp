@@ -89,8 +89,5 @@ Route::get('update', function () {
 
 });
 
-Route::get('index', function () {
-    return view('index');
 
-});
 
