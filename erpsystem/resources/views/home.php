@@ -30,8 +30,8 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
  
 	<ul class="links">
 		<li><a href="/">Home</a></li>
+    <li><a href="/services">Services</a></li>
 		<li><a href="/about">About</a></li>
-		<li><a href="/services">Services</a></li>
 		<li><a href="/contact">Contact</a></li>
 	</ul>
 	<label for="nav-toggle" class="icon-burger">
@@ -51,7 +51,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
             </h2><br>
 <p> A software system that helps you run your entire business, supporting 
               automation and processes in finance, human resources, manufacturing, supply chain, services, procurement, and more.</p>
-              <p><a class="btn" href="https://www.oracle.com/erp/what-is-erp/implementation/">CREATE YOUR ERP</a></p>
+              <p><a class="btn" href="/add">CREATE YOUR ERP</a></p>
 
           </div>
           <div class="home-computer-container">

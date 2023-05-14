@@ -78,9 +78,19 @@ Route::get('contact', function () {
     return view('contact');
 
 });
+ 
+Route::get('add', function () {
+    return view('add');
 
-Route::get('dashboard/signup', function () {
-    return view('dashboard/signup');
+});
+
+Route::get('update', function () {
+    return view('update');
+
+});
+
+Route::get('index', function () {
+    return view('index');
 
 });
 
