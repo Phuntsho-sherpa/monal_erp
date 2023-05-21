@@ -1,0 +1,291 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+
+  /* background-color: rgb(252, 252, 250); */
+}
+  
+  
+
+
+
+
+  @media (min-width: 769px) {
+	header {
+	  padding: 1rem 5rem;
+	}
+
+  .time {
+    /* Ukuran */
+    width: 100vw;
+    height: 100vh;
+
+    /* Tampilan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Style text */
+    text-align: center;
+    color: white; 
+
+    /* Background style dari hero image*/
+    background-image: url(https://img.freepik.com/premium-photo/selective-focus-working-desk-group-unrecognizable-businesswomen-standing-together-office-breaking-time-female-employee-teamwork-taking-with-relax-blur-background_102814-4587.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.time h1 {
+    /* Style text */
+    font-size: 4em;
+
+    /* Margin */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+
+/* BTN atau TOMBOL STYLE 
+.time .btn {
+   
+    display: block;
+    width: 200px;
+    
+ 
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    
+   
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, 0.8);
+}
+*/
+
+/* Background color dari text */
+.time-inner{
+    background: rgba(52, 118, 216, 0.5);
+    padding: 20px;
+}
+
+
+
+
+  .section-2 {
+	display: flex;
+	justify-content: flex-end; /* this align text to right */
+	padding-top: 150px;
+	padding-right: 30px;
+
+  }
+  
+  .flex-container {
+	display: flex;
+	flex-direction: row-reverse; /* this align image to left */
+  }
+  
+  .slogan-2 .manage {
+	margin-top: -20px;
+	font-size: 2rem;
+	padding-top:50px;
+	color:rgb(54, 52, 52);;
+	font-weight: 600;
+	margin-top: auto;
+	padding-left: 60px;
+  }
+  .slogan-2{
+    margin-top: -40px;
+    padding-right: 150px;
+  }
+  
+  .slogan-2 .recruitment {
+	color:rgb(136, 132, 132);
+	letter-spacing: -normal;
+	font-size: 1rem;
+	padding-left: 60px;
+  }
+  .HR-img2 .img2{
+	height: 400px;
+	width: 600px;
+  
+  }
+
+ 
+  .HR-img2 .img2 {
+    transition: transform 0.3s ease;
+  }
+  
+  .HR-img2:hover .img2 {
+    transform: scale(1.2); /* Adjust the scale value to your desired zoom level */
+  }
+ 
+
+
+
+.section-3 {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 150px;
+   padding-bottom: 80px;
+  
+  }
+  
+  .flex-container-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .slogan-3{
+    padding-left: 80px;
+  }
+  .slogan-3 .empo-1 {
+    margin-top: -20px;
+    font-size: 1.5rem;
+
+    color:rgb(54, 52, 52);;
+    font-weight: 600;
+    margin-top: auto;
+    padding-right: 50px;
+  }
+  
+  .slogan-3 .empo-2 {
+    color:rgb(136, 132, 132);
+    letter-spacing: -normal;
+    font-size: 1rem;
+    padding-right: 50px;
+  }
+  
+  .HR-img3 {
+    height: auto;
+    width: auto;
+    
+  }
+  .HR-img3 .img3 {
+    transition: transform 0.3s ease;
+  }
+  
+  .HR-img3:hover .img3 {
+    transform: scale(1.2); /* Adjust the scale value to your desired zoom level */
+  }
+ 
+  
+
+ 
+
+
+
+ 
+  
+ 
+  .site-footer
+  {
+    margin-top: 0;
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  text-align: center;
+ 
+  }
+  .site-footer hr
+  {
+  border-top-color:#bbb;
+  opacity:0.5
+  }
+  .container{
+    height: auto;
+  }
+  .site-footer hr.small
+  {
+  
+  margin:20px 0
+  }
+  .site-footer h6
+  {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+  }
+  .site-footer a
+  {
+  color:#a79d9d;
+  }
+  .site-footer a:hover
+  {
+  color:#3366cc;
+  text-decoration:none;
+  }
+  .footer-links
+  {
+  padding-left:0;
+  list-style:none
+  }
+  .footer-links li
+  {
+  display:block#9c63e6
+  }
+  .footer-links a
+  {
+  color:#737373
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+  {
+  color:#3366cc;
+  text-decoration:none;
+  }
+  .footer-links.inline li
+  {
+  display:inline-block
+  }
+  .site-footer .social-icons
+  {
+  text-align:right
+  }
+  
+  .copyright-text
+  {
+  margin:0
+  }
+  
+  
+  
+  
+  @media (max-width:991px)
+  {
+  .site-footer [class^=col-]
+  {
+  margin-bottom:30px
+  }
+  }
+  @media (max-width:767px)
+  {
+  .site-footer
+  {
+  padding-bottom:0;
+  }
+  }
+  
+  
+  
+
+
+}

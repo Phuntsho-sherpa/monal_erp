@@ -2,55 +2,131 @@
     <html>
 
 <head>
-  <title>HelpDesk</title>
-<link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
-  <!-- Footer iCON  -->
+  <title>Helpdesk</title>
+  <link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
+ 
+ <!-- Footer iCON  -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ <link href='style.css' rel='stylesheet'>
+     <link href='help.css' rel='stylesheet'>
+     
+ </head>
+ <body>
+     <header>
+   <nav>
+   <input id="nav-toggle" type="checkbox">
+ 
+ <div class="company-logo">
+ <img src="image/Monal-ERP-Logo1.png" alt="">
+ </div>
+   <div id="logo-title" style="color: #26d4bd;"> <b>Monal</span>-<span style="color: #e8810c; ">ERP</span></b></div> 
+  
+   <ul class="links">
+     <li><a href="/">Home</a></li>
+     <li><a href="/services">Services</a></li>
+     <li><a href="/about">About</a></li>
+     <li><a href="/contact">Contact</a></li>
+   </ul>
+   <label for="nav-toggle" class="icon-burger">
+     <div class="line"></div>
+     <div class="line"></div>
+     <div class="line"></div>
+   </label>
+ </nav>
+       </header>
+
+       <section class="time">
+      <div class="time-inner">
+        <h1>HelpDesk Management</h1>
+        <h2>Manage Employee vacation and absences</h2>
+        <!-- <a href="https://kenscripts.blogspot.com/" target="_blank" class="btn">Go ahead...</a> -->
+     </div>
+  </section>
 
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
-integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <section class="container section-2">
+  <div class="flex-container">
+    <div class="slogan-2">
+      <p class="manage">Ticketing &nbsp;System & Management</p><br>
+      <p class="recruitment"> 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<link href='help.css' rel='stylesheet'>
-<body>
-    <!-- Header Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-<header id="header">
-  <div class="main_nav">
-    <div class="container">
-      <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
-      <nav>
-        <ul>
-          <li><a class="smoothscroll" href="#about">About</a></li>
-      </nav>
+      A ticketing system is at the core of the helpdesk, allowing users to submit requests, issues, 
+      or inquiries. Each ticket is assigned a unique identifier and contains relevant information
+       such as the requester, description, priority, status, and any associated attachments.It also provides tools to manage and track tickets throughout their lifecycle. This includes assigning tickets to specific support staff or teams,
+        setting priorities, tracking progress, and maintaining a history of actions taken on each ticket.</p>
+    
+    </div>
+    <div class="HR-img2">
+      <img class="img2" src="/image/ticket.png">
     </div>
   </div>
+</section>
 
-  <div class="title">
-    <div><span class="typcn typcn-heart-outline icon heading"></span></div>
-    <div class="smallsep heading"></div>
-    <h1 class="heading"> HELP DESK</h1>
-    <h2 class="heading">We are here to support you.</h2>
-    <a class="smoothscroll" href="#about">
-    <div class="mouse">
-      <div class="wheel"></div>
+
+
+<section class="container section-3">
+  <div class="flex-container-1">
+    <div class="slogan-3">
+      <h2 class="empo-1">Communication Channels & SLA</h2><br>
+      <p class="empo-2">The helpdesk supports multiple communication channels to facilitate interactions between users and support staff. 
+        This may include email integration, web forms, live chat, and even phone support.(SLA)Service Level Agreement (SLA) management allows organizations to define response and resolution timeframes for different types of tickets. The helpdesk system monitors SLAs and ensures that support staff meet the agreed-upon service levels.
+      </p>
+      
+
+    
+     
     </div>
-    </a> </div>
-  <a class="smoothscroll" href="#about">
-  <div class="scroll-down"></div>
-  </a> </header>
+    <div class="HR-img3">
+      <img class="img3" src="/image/com.png">
+     
+    </div>
+  </div>
+</section>
+
+
+<section class="container section-2">
+  <div class="flex-container">
+    <div class="slogan-2">
+      <p class="manage">Automation &&nbsp;Workflow</p><br>
+      <p class="recruitment"> 
+
+      Helpdesk systems often include automation features to streamline processes and improve efficiency. 
+      For example, automatically routing tickets to the appropriate support team based on predefined rules, sending automated notifications to users, or triggering actions based on specific events.</p>
+    
+    </div>
+    <div class="HR-img2">
+      <img class="img2" src="/image/workflow.png">
+    </div>
+  </div>
+</section>
 
 
 
-   
-<!-- About Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
-<?php include('home/help.html'); ?>
-  
 
+<section class="container section-3">
+
+  <div class="flex-container-1">
+    <div class="slogan-3">
+      <h2 class="empo-1">Analytics &nbsp; Reporting</h2><br>
+      <p class="empo-2">The helpdesk provides reporting capabilities to track performance metrics, such as ticket volume, response time, resolution time, customer satisfaction, and other relevant data. These reports
+         help identify trends, measure support team efficiency, and make data-driven decisions.
+      </p><br>
+     
+    </div>
+
+    <div class="HR-img3">
+      <img class="img3" src="/image/reorder.jpg">
+    </div>
+  </div>
+</section>
+ 
 <!-- Site footer -->
 <footer class="site-footer">
   <div class="container">
@@ -98,5 +174,13 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
   </div>
 </footer>
 </body>
+<script>
+  function scrollToCard(cardId) {
+  const cardElement = document.getElementById(cardId);
+  if (cardElement) {
+    cardElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>
 <script src="main.js"></script>
     </html>

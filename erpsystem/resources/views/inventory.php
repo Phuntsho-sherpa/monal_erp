@@ -2,7 +2,7 @@
     <html>
 
 <head>
-  <title>Inventory</title>
+  <title>Inventory-management</title>
   <link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
 
  
@@ -17,7 +17,6 @@
  
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link href='style.css' rel='stylesheet'>
-     <title>Monal-ERP</title>
 
      <link href='inventory.css' rel='stylesheet'>
      
@@ -55,18 +54,18 @@
             </h2><br>
 <p> ERP inventory management: Tracks, optimizes, and automates inventory processes to improve visibility, 
   control, and efficiency within an organization.</p><br>
-              <p><a class="btn-1" href="/add">CREATE YOUR ERP</a></p>
+             
 
           </div>
           <div class="HR-img1">
-            <img class="home-computer" src="/image/hr.png" alt="a computer in dark with shadow" class="home-img">
+            <img class="home-computer" src="/image/inventory.png" alt="a computer in dark with shadow" class="home-img">
           </div>
         </section>
 
         <section class="container section-2">
   <div class="flex-container">
     <div class="slogan-2">
-      <p class="manage">Recruitment&nbsp;Management</p><br>
+      <p class="manage">Well&nbsp;Organized</p><br>
       <p class="recruitment"> Inventory management teams are responsible for planning, 
         forecasting, and optimizing inventory levels. They analyze data, track trends, and ensure adequate stock 
         availability while minimizing excess inventory.
@@ -74,58 +73,73 @@
      
     </div>
     <div class="HR-img2">
-      <img class="img2" src="/image/recruitment.jpeg">
+      <img class="img2" src="/image/store.jpg">
     </div>
   </div>
 </section>
 
 <section class="container section-3">
+
   <div class="flex-container-1">
     <div class="slogan-3">
-      <h2 class="empo-1">"Top Tips for Effective Inventory Tracking"</h2><br>
-      <p class="empo-2">Streamline your inventory control with our website. Gain insights into effective inventory management strategies, optimize stock levels, track inventory movements, and reduce costs. 
-        Improve efficiency and customer satisfaction with our expert guidance and resources.</p><br>
+      <h2 class="empo-1">Reorder&nbsp; Point</h2><br>
+      <p class="empo-2">With item tracer your item will never be out of stock.
+      Use order points and automated SKU to make your supply chain more efficient than ever.
+      </p><br>
       
     </div>
 
     <div class="HR-img3">
-      <img class="img3" src="/image/training-of-employees.png">
+      <img class="img3" src="/image/reorder.jpg">
     </div>
   </div>
 </section>
 
+
+<section class="container section-11">
+  <div class="flex-container-11">
+    <div class="slogan-11">
+      <h2 class="text-1">Total traceability</h2><br>
+      <p class="text-2">Track every product purchase , location,item numbers and date of orders.
+      </p><br>
+      
+    </div>
+
+    <div class="HR-img11">
+      <img class="img11" src="/image/record.jpeg">
+    </div>
+  </div>
+</section>
+
+
   <div class="resource-library">
-              <h2 style="text-align: center;">Inventory Management</h2>
+              <h2 class="topic">Inventory Management</h2>
               <div class="slider">
-                  <div>
-                    <img class="img" src="https://www.allrecipes.com/thmb/EwaCH1PTxl2VZovGgw1A1n1g1Eo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg" alt="How to Create an E-Book">
-                    <h3>Item_Master </h3>
-                    <p>ERP integration is the process of connecting the ERP system to other software applications used by a business. This can include integrating with CRM systems, eCommerce platforms, inventory management systems, or other specialized software applications.</p>
                  
-                  </div>
                   <div>
-                    <img class="img" src="https://www.allrecipes.com/thmb/EwaCH1PTxl2VZovGgw1A1n1g1Eo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg" alt="How to Create an E-Book" alt="LinkedIn Marketing">
-                    <h3>Inventory_Controls</h3>
-                    <p>ERP consulting is the process of providing expert guidance and advice to businesses on ERP system selection, implementation, customization, and ongoing support and maintenance. </p>
+
+                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZFnu6K60rs-K6iyam8CzpWWQCMoXM6Zy7g6kPg7sfyciPtytAi2PDOYqNSE1GK7v4KQ&usqp=CAU">
+                    <h3>Inventory Control</h3>
+                    <p>Providing expert guidance and advice to businesses on ERP system selection, implementation, expiry dates, location,  customization, and ongoing support and maintenance. It also keep information on the past sales, including quantities sold.</p>
+
                     
                   </div>
                   <div>
-                    <img class="img" src="https://www.allrecipes.com/thmb/EwaCH1PTxl2VZovGgw1A1n1g1Eo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg" alt="How to Create an E-Book" alt="Guide to Digital Advertising">
-                    <h3>Purchase_Order_Management</h3>
-                    <p>ERP upgrades are the process of updating the ERP software to a newer version or release. Upgrades can be performed for various reasons, including to take advantage of new features and functionality, to improve system performance or security, or to ensure compatibility with new hardware or software.</p>
-                   
+                    <img class="img" src="https://static.vecteezy.com/system/resources/previews/005/647/959/original/isometric-illustration-concept-man-analyzing-goods-in-warehouse-free-vector.jpg" alt="How to Create an E-Book">
+                    <h3>SKU & Quantity</h3>
+                    <p>(Stock keeping Unit)A unique identifier assigned to each items for tracking. Keeps record ot number of each item available in stock.</p>
+                 
                   </div>
+
                   <div>
-                    <img class="img" src="https://www.allrecipes.com/thmb/EwaCH1PTxl2VZovGgw1A1n1g1Eo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg" alt="How to Create an E-Book" alt="Developing a Facebook Marketing Strategy">
-                    <h3>Reports_and analytics</h3>
-                    <p>ERP training involves providing education and instruction to users on how to use the ERP system effectively. Training can be provided to various groups, including system administrators, IT staff, and end-users. The goal of ERP training is to ensure that users have the necessary knowledge and skills to perform their roles effectively and efficiently within the ERP system. </p>
-                   
+                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XiDU_n7eshSVfabO7Dyg0NSe4e1ufvOlkw&usqp=CAU" alt="How to Create an E-Book">
+                    <h3>Sales History</h3>
+                    <p> gives an overview of the product's sales history including the quantity ordered, delivered, invoiced, and returned by the customer/s within a specific date range. </p>
+                 
                   </div>
               </div>
             </div> 
-     <div class="partners">
-     <img class="imgs" src="athang.png">
-     </div>
+    
 <!-- Site footer-->
 <footer class="site-footer">
   <div class="container">

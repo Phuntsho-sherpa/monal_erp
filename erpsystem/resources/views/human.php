@@ -13,9 +13,8 @@
  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
  
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
  <link href='style.css' rel='stylesheet'>
-     <title>Monal-ERP</title>
-
      <link href='human.css' rel='stylesheet'>
      
  </head>
@@ -54,7 +53,9 @@ Leaves, Attendances, etc.
             </h2><br>
 <p> HR departments also handle employee compensation, benefits, and terminations.
    HR departments must keep up to date with laws that can affect the company and its employees.</p><br>
-              <p><a class="btn-1" href="/add">CREATE YOUR ERP</a></p>
+  
+   <p><a class="btn-1" onclick="scrollToCard('employee-history')">Management</a></p>
+
 
           </div>
           <div class="HR-img1">
@@ -69,7 +70,7 @@ Leaves, Attendances, etc.
       <p class="recruitment"> When the organization looks to make a hire, recruiters within the HR department
          assume this responsibility by creating job listings, screening candidates and setting up interviews.
          Recruiting is competitive, especially for candidates with high-demand technical skills, and it is driving interest in sophisticated recruiting systems.</p><br>
-      <a class="btn-2" href="/add">LEARN MORE</a>
+      <a class="btn-2" href="/recrutment">LEARN MORE</a>
     </div>
     <div class="HR-img2">
       <img class="img2" src="/image/recruitment.jpeg">
@@ -77,7 +78,7 @@ Leaves, Attendances, etc.
   </div>
 </section>
 
-<img class="img4" src="https://www.shutterstock.com/image-vector/onboarding-banner-icons-employee-behavior-260nw-2058058307.jpg">
+<img class="img5" src="/image/emploo.png">
 
 <section class="container section-3">
   <div class="flex-container-1">
@@ -85,9 +86,9 @@ Leaves, Attendances, etc.
       <h2 class="empo-1">TRAINING&nbsp;&&nbsp;DEVELOPMENT</h2><br>
       <p class="empo-2">Training and development in Human Resource Management (HRM) refers to a system of educating employees within a company. It includes various tools, instructions, and activities designed 
         to improve employee performance. It's an opportunity for employees to increase their knowledge and upgrade their skills.</p><br>
-      <a class="btn-3" href="/add">LEARN MORE</a>
+     
 
-      <h1 class="empo">EMPLOYE MANAGEMENT</h1>
+      <h1 class="empo" id="employee-history">EMPLOYE MANAGEMENT</h1>
      
     </div>
     <div class="HR-img3">
@@ -98,16 +99,13 @@ Leaves, Attendances, etc.
 </section>
 
 
-    
-
-
 
  <div class="grid">
-			<div class="grid-item">
+ <div class="grid-item" >
 				<div class="card">
 					<img
 						class="card-img"
-						src="https://images.unsplash.com/photo-1556958553-99a9dff36a7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
+						src="/image/record.png"
 						alt=""
 					/>
 					<div class="card-content">
@@ -119,14 +117,17 @@ Leaves, Attendances, etc.
 							
 						</p>
 					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
+					<a href="/emphistory" class="card-link">
+  <button class="card-btn">Visit <span>&rarr;</span></button>
+</a>
+
 				</div>
 			</div>
 			<div class="grid-item">
 				<div class="card">
 					<img
 						class="card-img"
-						src="https://images.unsplash.com/photo-1531694402898-042bd3957f41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1055&q=80"
+						src="/image/time-off.png"
 						alt=""
 					/>
 					<div class="card-content">
@@ -136,14 +137,17 @@ Leaves, Attendances, etc.
              managing employee time-off requests, such as vacation, holidays, sick leave, and parental leave.<br>
 						</p><br>
 					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
+          
+          <a href="/timeoff" class="card-link">
+  <button class="card-btn">Visit <span>&rarr;</span></button>
+</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<div class="card">
 					<img
 						class="card-img"
-						src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+						src="/image/pormotion.jpg"
 						alt=""
 					/>
 					<div class="card-content">
@@ -153,29 +157,15 @@ Leaves, Attendances, etc.
             will involve some combination of: Higher salary. More senior job title. More and higher-level responsibilities.
 						</p>
 					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
+          <a href="/pormotion" class="card-link">
+  <button class="card-btn">Visit <span>&rarr;</span></button>
+</a>
 				</div>
 			</div>
 		</div>
 
- 
 
 
-        <section class="section-4">
-  <div class="flex-container-4">
-    <div class="slogan-4">
-      <p class="vet">Vetting</p><br>
-      <p class="vett"> Performing a background check on someone before offering them employment,
-       conferring an award, or doing fact-checking prior to making any decision. In addition, 
-       in intelligence gathering, assets are vetted to determine their usefulness.</p><br>
-      <a class="btn-4" href="/add">LEARN MORE</a>
-    </div>
-    <div class="HR-img4">
-      <img class="img4" src="/image/vetting.jpg">
-    </div>
-  </div>
-</section>
-<img class="img5" src="/image/emploo.png">
 
 
 <!-- Site footer -->
@@ -225,5 +215,13 @@ Leaves, Attendances, etc.
   </div>
 </footer>
 </body>
+<script>
+  function scrollToCard(cardId) {
+  const cardElement = document.getElementById(cardId);
+  if (cardElement) {
+    cardElement.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>
 <script src="main.js"></script>
     </html>
