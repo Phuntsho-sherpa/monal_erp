@@ -61,9 +61,9 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
         <!-- HOME SECTION -->
         <section class="container section-1">
           <div class="slogan">
-            <h1 class="company-title">Monal-ERP</h1>
+            <h1 class="company-title">Monal-ERP rinchen</h1>
             <h2 class="company-slogan">
-              Bhutan's first ERP-system powered by Athang<br>
+              Bhutan's first ERP-system powered by Athang Rinchen<br>
             </h2><br>
 <p> A software system that helps you run your entire business, supporting 
               automation and processes in finance, human resources, manufacturing, supply chain, services, procurement, and more.</p>
