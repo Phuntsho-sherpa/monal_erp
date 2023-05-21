@@ -85,6 +85,8 @@ Route::get('training', function () {
 
 
 
+
+
 Route::get('form', function () {
     return view('form');
 
