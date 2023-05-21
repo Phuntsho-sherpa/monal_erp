@@ -225,25 +225,12 @@
         .HR-img4 .img4{
           position: relative;
         height: 400px;
-        width: 650px;
-  
+        width: 750px;
+     
       box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); /* Shadow properties */
       display: inline-block; /* Ensures the shadow takes effect */
         }
-        a.btn-4 {
-        text-decoration: none;
-        background-color: #9c63e6;
-        color: #fff;
-        padding: 12px 25px;
-        border: 2px solid #fff;
-        border-radius: 8px;
-        margin-left: 100px; /* align button to the right */
-      }
-      a.btn-4:hover {
-        border: 2px solid #74c485;
-        background-color: #fff;
-        color: #74c485;
-      }
+   
       
 
 }

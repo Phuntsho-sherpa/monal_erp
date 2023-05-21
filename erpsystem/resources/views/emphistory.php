@@ -2,7 +2,7 @@
     <html>
 
 <head>
-  <title>Human Resource</title>
+  <title>Employee-history</title>
   <link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
  
  <!-- Footer iCON  -->
@@ -14,9 +14,9 @@
  
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link href='style.css' rel='stylesheet'>
-     <title>Monal-ERP</title>
+    
 
-     <link href='training.css' rel='stylesheet'>
+     <link href='emphistory.css' rel='stylesheet'>
      
  </head>
  <body>
@@ -31,8 +31,8 @@
   
    <ul class="links">
      <li><a href="/">Home</a></li>
-     <li><a href="/about">About</a></li>
      <li><a href="/services">Services</a></li>
+     <li><a href="/about">About</a></li>
      <li><a href="/contact">Contact</a></li>
    </ul>
    <label for="nav-toggle" class="icon-burger">
@@ -43,53 +43,55 @@
  </nav>
        </header>
 
-
+       <section class="time">
+      <div class="time-inner">
+        <h1>Employee Record Management System</h1>
+        <h2>Manage Employee history and information.</h2>
+        <!-- <a href="https://kenscripts.blogspot.com/" target="_blank" class="btn">Go ahead...</a> -->
+     </div>
+  </section>
   <section class="container section-1">
           <div class="slogan">
-            <p class="company-title">Human Resources
-for modern companies</p>
+            <p class="company-title">Employee Record Management</p>
             <h2 class="company-slogan">
-            All-in-one: Recruitments, Appraisal, Expenses,
-Leaves, Attendances, etc.
+           It is more than just storing & managing Records.
             </h2><br>
 <p> HR departments also handle employee compensation, benefits, and terminations.
    HR departments must keep up to date with laws that can affect the company and its employees.</p><br>
   
-   <p><a class="btn-1" onclick="scrollToCard('employee-history')">Management</a></p>
 
 
           </div>
           <div class="HR-img1">
-            <img class="home-computer" src="/image/hr.png" alt="a computer in dark with shadow" class="home-img">
+            <img class="home-computer" src="/image/123.jpeg ">
           </div>
         </section>
 
         <section class="container section-2">
   <div class="flex-container">
     <div class="slogan-2">
-      <p class="manage">Recruitment&nbsp;Management</p><br>
-      <p class="recruitment"> When the organization looks to make a hire, recruiters within the HR department
-         assume this responsibility by creating job listings, screening candidates and setting up interviews.
-         Recruiting is competitive, especially for candidates with high-demand technical skills, and it is driving interest in sophisticated recruiting systems.</p><br>
-      <a class="btn-2" href="/recrutment">LEARN MORE</a>
+      <p class="manage">Data&nbsp;field</p><br>
+      <p class="recruitment"> Oversee all important information for each department at a glance. Restrict visibility of sensitive information to just HR managers, or make other information public for all employees to see such as employee directory. Receive alerts for any new leave requests, allocation requests, applications, appraisals, and more.</p><br>
+    
     </div>
     <div class="HR-img2">
-      <img class="img2" src="/image/recruitment.jpeg">
+      <img class="img2" src="/image/data.png">
     </div>
   </div>
 </section>
 
-<img class="img5" src="/image/emploo.png">
 
+<div class="HR-img4">
+      <img class="img4" src="/image/form.png">
+    </div>
 <section class="container section-3">
   <div class="flex-container-1">
     <div class="slogan-3">
-      <h2 class="empo-1">TRAINING&nbsp;&&nbsp;DEVELOPMENT</h2><br>
-      <p class="empo-2">Training and development in Human Resource Management (HRM) refers to a system of educating employees within a company. It includes various tools, instructions, and activities designed 
-        to improve employee performance. It's an opportunity for employees to increase their knowledge and upgrade their skills.</p><br>
-      <a class="btn-3" href="/form">LEARN MORE</a>
+      <h2 class="empo-1">Employee Personal&nbsp;&&nbsp;Information</h2><br>
+      <p class="empo-2"> An individual that is collected, used or disclosed solely for the purposes reasonably required to establish, manage or terminate an employment relationship between the organization and that individual, but does not include personal information that is not about an individual's employment;</p><br>
+      
 
-      <h1 class="empo" id="employee-history">EMPLOYE MANAGEMENT</h1>
+    
      
     </div>
     <div class="HR-img3">
@@ -100,83 +102,7 @@ Leaves, Attendances, etc.
 </section>
 
 
-
- <div class="grid">
- <div class="grid-item" >
-				<div class="card">
-					<img
-						class="card-img"
-						src="/image/record.png"
-						alt=""/>
-					<div class="card-content">
-						<h1 class="card-header">Employe History</h1>
-						<p class="card-text">
-            The process of storing, filing, and organizing employee data collected during the employee 
-            lifecycle. This enables businesses to establish regulated access to sensitive data and the proper 
-            storage of essential employe. <br><br>
-							
-						</p>
-					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
-				</div>
-			</div>
-			<div class="grid-item">
-				<div class="card">
-					<img
-						class="card-img"
-						src="/image/time-off.png"
-						alt=""
-					/>
-					<div class="card-content">
-						<h1 class="card-header">Time-Off management</h1>
-						<p class="card-text">
-            Employee leave management (or time-off management) encompasses the processes and policies of a
-             managing employee time-off requests, such as vacation, holidays, sick leave, and parental leave.<br>
-						</p><br>
-					</div>
-          
-					<button class="card-btn">Visit <span>&rarr;</span></button>
-				</div>
-			</div>
-			<div class="grid-item">
-				<div class="card">
-					<img
-						class="card-img"
-						src="/image/pormotion.jpg"
-						alt=""
-					/>
-					<div class="card-content">
-						<h1 class="card-header">Promotion management</h1>
-						<p class="card-text">
-            An employee promotion is a recognition for that person's contribution to your company. Employee promotions can come in many forms, but typically 
-            will involve some combination of: Higher salary. More senior job title. More and higher-level responsibilities.
-						</p>
-					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
-				</div>
-			</div>
-		</div>
-
  
-
-
-        <section class="section-4">
-  <div class="flex-container-4">
-    <div class="slogan-4">
-      <p class="vet">Vetting</p><br>
-      <p class="vett"> Performing a background check on someone before offering them employment,
-       conferring an award, or doing fact-checking prior to making any decision. In addition, 
-       in intelligence gathering, assets are vetted to determine their usefulness.</p><br>
-      <a class="btn-4" href="/add">LEARN MORE</a>
-    </div>
-    <div class="HR-img4">
-      <img class="img4" src="/image/vetting.jpg">
-    </div>
-  </div>
-</section>
-
-
-
 <!-- Site footer -->
 <footer class="site-footer">
   <div class="container">

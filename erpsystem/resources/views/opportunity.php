@@ -2,7 +2,7 @@
     <html>
 
 <head>
-  <title>Inventory-management</title>
+  <title>Sales & Opportunity Management</title>
   <link rel="icon" type="image/png" href="icon.png" width="512" height="512"/>
 
  
@@ -18,7 +18,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link href='style.css' rel='stylesheet'>
 
-     <link href='inventory.css' rel='stylesheet'>
+     <link href='opportunity.css' rel='stylesheet'>
      
  </head>
  <body>
@@ -48,95 +48,50 @@
 
   <section class="container section-1">
           <div class="slogan">
-            <p class="company-title">Optimize,Organize, Automate, Train.</p>
-            <h2 class="company-slogan">
-            Efficient, Cloud-Based, Integrated, Scalable.
-            </h2><br>
-<p> ERP inventory management: Tracks, optimizes, and automates inventory processes to improve visibility, 
-  control, and efficiency within an organization.</p><br>
+            <p class="company-title">Marketing Automation</p>
+            
+<p> Tools for managing marketing campaigns, lead nurturing, email marketing, & tracking marketing interactions with customers.
+
+</p><br>
              
 
           </div>
           <div class="HR-img1">
-            <img class="home-computer" src="/image/inventory.png" alt="a computer in dark with shadow" class="home-img">
+            <img class="home-computer" src="/image/marketing.jpg" alt="a computer in dark with shadow" class="home-img">
           </div>
         </section>
 
-        <section class="container section-2">
-  <div class="flex-container">
-    <div class="slogan-2">
-      <p class="manage">Well&nbsp;Organized</p><br>
-      <p class="recruitment"> Inventory management teams are responsible for planning, 
-        forecasting, and optimizing inventory levels. They analyze data, track trends, and ensure adequate stock 
-        availability while minimizing excess inventory.
-      Effective inventory management ensures efficient operations and customer satisfaction.</p><br>
-     
-    </div>
-    <div class="HR-img2">
-      <img class="img2" src="/image/store.jpg">
-    </div>
-  </div>
-</section>
 
-<section class="container section-3">
-
-  <div class="flex-container-1">
-    <div class="slogan-3">
-      <h2 class="empo-1">Reorder&nbsp; Point</h2><br>
-      <p class="empo-2">With item tracer your item will never be out of stock.
-      Use order points and automated SKU to make your supply chain more efficient than ever.
-      </p><br>
-      
-    </div>
-
-    <div class="HR-img3">
-      <img class="img3" src="/image/reorder.jpg">
-    </div>
-  </div>
-</section>
-
-
-<section class="container section-11">
+ <section class="container section-11">
   <div class="flex-container-11">
     <div class="slogan-11">
-      <h2 class="text-1">Total traceability</h2><br>
-      <p class="text-2">Track every product purchase , location,item numbers and date of orders.
+      <h2 class="text-1">Marketing Automation</h2><br>
+      <p class="text-2">Technology that manages marketing processes and multifunctional campaigns, across multiple channels, automatically.
       </p><br>
       
     </div>
 
     <div class="HR-img11">
-      <img class="img11" src="/image/record.jpeg">
+      <img class="img11" src="/image/marketing2.png">
+    </div>
+  </div>
+</section>
+        <section class="container section-2">
+  <div class="flex-container">
+    <div class="slogan-2">
+      <p class="manage">Collaboration &&nbsp;Communication</p><br>
+      <p class="recruitment"> Facilitating internal collaboration & Communication among team member, such as sharing customers information, notes, & task.</p><br>
+
+    </div>
+    <div class="HR-img2">
+      <img class="img2" src="/image/collab.png">
     </div>
   </div>
 </section>
 
 
-  <div class="resource-library">
-              <h2 class="topic">Inventory Management</h2>
-              <div class="slider">
-                 
-                  <div>
-                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZFnu6K60rs-K6iyam8CzpWWQCMoXM6Zy7g6kPg7sfyciPtytAi2PDOYqNSE1GK7v4KQ&usqp=CAU">
-                    <h3>Inventory Control</h3>
-                    <p>Providing expert guidance and advice to businesses on ERP system selection, implementation, expiry dates, location,  customization, and ongoing support and maintenance. It also keep information on the past sales, including quantities sold.</p>
-                    
-                  </div>
-                  <div>
-                    <img class="img" src="https://static.vecteezy.com/system/resources/previews/005/647/959/original/isometric-illustration-concept-man-analyzing-goods-in-warehouse-free-vector.jpg" alt="How to Create an E-Book">
-                    <h3>SKU & Quantity</h3>
-                    <p>(Stock keeping Unit)A unique identifier assigned to each items for tracking. Keeps record ot number of each item available in stock.</p>
-                 
-                  </div>
 
-                  <div>
-                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XiDU_n7eshSVfabO7Dyg0NSe4e1ufvOlkw&usqp=CAU" alt="How to Create an E-Book">
-                    <h3>Sales History</h3>
-                    <p> gives an overview of the product's sales history including the quantity ordered, delivered, invoiced, and returned by the customer/s within a specific date range. </p>
-                 
-                  </div>
-              </div>
-            </div> 
+  
     
 <!-- Site footer-->
 <footer class="site-footer">
