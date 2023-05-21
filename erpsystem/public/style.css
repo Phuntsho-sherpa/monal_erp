@@ -341,7 +341,7 @@ body {
 
 
 .card-section{
-  
+  margin-bottom: -250px;
   height: 900px;
   width: 80%;
   margin-left: 150px;
@@ -392,6 +392,9 @@ background: #fff;
 .p  {
   font-size: .8rem;
   
+}
+#last{
+  margin-left: 200px;
 }
 }
 

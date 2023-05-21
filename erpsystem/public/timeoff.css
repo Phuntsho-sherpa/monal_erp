@@ -38,7 +38,7 @@
     color: white; 
 
     /* Background style dari hero image*/
-    background-image: url(https://www.trackit.com/wp-content/uploads/2020/08/world-class-help-desk.jpg);
+    background-image: url(https://img.freepik.com/premium-photo/selective-focus-working-desk-group-unrecognizable-businesswomen-standing-together-office-breaking-time-female-employee-teamwork-taking-with-relax-blur-background_102814-4587.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -189,48 +189,6 @@
  
 
 
-  .section-3 {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 150px;
-   
-  
-  }
-  
-  .flex-container-1 {
-    display: flex;
-    flex-direction: row;
-  }
-  .slogan-3{
-    padding-left: 80px;
-    padding-top: 100px;
-  }
-
-  .slogan-3 .empo-1 {
-    margin-top: -20px;
-    font-size: 2rem;
-    letter-spacing: 10px;
-    color:rgb(54, 52, 52);;
-    font-weight: 600;
-    margin-top: auto;
-    padding-right: 100px;
-  }
-  
-  .slogan-3 .empo-2 {
-    color:rgb(136, 132, 132);
-    letter-spacing: -normal;
-    font-size: 1rem;
-    padding-right: 100px;
-  }
-  
-  .HR-img3 .img3{
-	height: 350px;
-	width: 500px;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); /* Shadow properties */
-        display: inline-block; /* Ensures the shadow takes effect */
-  }
-  
-  
 
  
   

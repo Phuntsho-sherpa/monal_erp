@@ -166,60 +166,9 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
       </div>
 
     </div>
-    <!--End col-md-4-->
-    <div class="col-md-4">
+   
 
-      <div class="card featured-icon-card">
-        <div class="featured-icon-container">
-          <i class="fa-solid fa-layer-group fa-bs-responsive"></i>
-        </div>
-        <div class="featured-icon-textbox">
-          <h5>POINT OF SALES</h5>
-          <p class="p">The selling of goods which will take care of schemes & discounts, and even claims..</p><br>
-    <a href="/sale">learn more<span style="color: #3584e4;">&#8594;</span></a>
-        </div>
-      </div>
-
-    </div>
-    <!--End col-md-4-->
-
-      <!--End col-md-4-->
-      <div class="col-md-4">
-
-<div class="card featured-icon-card">
-  <div class="featured-icon-container">
-    <i class="fa-solid fa-truck fa-bs-responsive"></i>
-  </div>
-  <div class="featured-icon-textbox">
-    <h5>FLEET MANAGEMENT</h5>
-    <p class="p">POL management of pool vehicles and load vehicles 
-    including the maintainese cost and the tyres changes for the vechicle.</p>
-    <a href="/fleet">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-</div>
-
-</div>
-<!--End col-md-4-->
-
-  <!--End col-md-4-->
-  <div class="col-md-4">
-
-<div class="card featured-icon-card">
-  <div class="featured-icon-container">
-    <i class="fa-solid fa-book-open fa-bs-responsive"></i>
-  </div>
-  <div class="featured-icon-textbox">
-    <h5>ENTERPRISE RESOURCE PLANNING </h5>
-    <p class="p">An Enterpirse is a group of people with a common goal, which has certail resources at its disposal to achieve that </p>
-    <a href="/enterprise">learn more<span style="color: #3584e4;">&#8594;</span></a>
-  </div>
-</div>
-
-</div>
-<!--End col-md-4-->
-
-  <!--End col-md-4-->
-  <div class="col-md-4">
+  <div class="col-md-4" >
 
 <div class="card featured-icon-card">
   <div class="featured-icon-container">

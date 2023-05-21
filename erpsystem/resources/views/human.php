@@ -13,9 +13,8 @@
  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
  
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
  <link href='style.css' rel='stylesheet'>
-     <title>Monal-ERP hello</title>
-
      <link href='human.css' rel='stylesheet'>
      
  </head>
@@ -87,7 +86,7 @@ Leaves, Attendances, etc.
       <h2 class="empo-1">TRAINING&nbsp;&&nbsp;DEVELOPMENT</h2><br>
       <p class="empo-2">Training and development in Human Resource Management (HRM) refers to a system of educating employees within a company. It includes various tools, instructions, and activities designed 
         to improve employee performance. It's an opportunity for employees to increase their knowledge and upgrade their skills.</p><br>
-      <a class="btn-3" href="/training">LEARN MORE</a>
+     
 
       <h1 class="empo" id="employee-history">EMPLOYE MANAGEMENT</h1>
      
@@ -118,7 +117,10 @@ Leaves, Attendances, etc.
 							
 						</p>
 					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
+					<a href="/emphistory" class="card-link">
+  <button class="card-btn">Visit <span>&rarr;</span></button>
+</a>
+
 				</div>
 			</div>
 			<div class="grid-item">
@@ -136,7 +138,9 @@ Leaves, Attendances, etc.
 						</p><br>
 					</div>
           
-					<button class="card-btn">Visit <span>&rarr;</span></button>
+          <a href="/timeoff" class="card-link">
+  <button class="card-btn">Visit <span>&rarr;</span></button>
+</a>
 				</div>
 			</div>
 			<div class="grid-item">
@@ -153,28 +157,14 @@ Leaves, Attendances, etc.
             will involve some combination of: Higher salary. More senior job title. More and higher-level responsibilities.
 						</p>
 					</div>
-					<button class="card-btn">Visit <span>&rarr;</span></button>
+          <a href="/pormotion" class="card-link">
+  <button class="card-btn">Visit <span>&rarr;</span></button>
+</a>
 				</div>
 			</div>
 		</div>
 
- 
 
-
-        <section class="section-4">
-  <div class="flex-container-4">
-    <div class="slogan-4">
-      <p class="vet">Vetting</p><br>
-      <p class="vett"> Performing a background check on someone before offering them employment,
-       conferring an award, or doing fact-checking prior to making any decision. In addition, 
-       in intelligence gathering, assets are vetted to determine their usefulness.</p><br>
-      <a class="btn-4" href="/add">LEARN MORE</a>
-    </div>
-    <div class="HR-img4">
-      <img class="img4" src="/image/vetting.jpg">
-    </div>
-  </div>
-</section>
 
 
 

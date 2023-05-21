@@ -23,6 +23,7 @@
 	  padding: 1rem 5rem;
 	}
 
+
   .time {
     /* Ukuran */
     width: 100vw;
@@ -38,7 +39,7 @@
     color: white; 
 
     /* Background style dari hero image*/
-    background-image: url(https://www.trackit.com/wp-content/uploads/2020/08/world-class-help-desk.jpg);
+    background-image: url(https://img.freepik.com/premium-photo/selective-focus-working-desk-group-unrecognizable-businesswomen-standing-together-office-breaking-time-female-employee-teamwork-taking-with-relax-blur-background_102814-4587.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -86,6 +87,33 @@
 }
 
 
+  .section-1 {
+	display: grid;
+	
+   
+  }
+   .HR-img1 {
+	padding-top: -40%;
+   } 
+  
+  .slogan .company-title {
+	margin-top: -20px;
+	font-size: 2rem;
+	padding-top:50px;
+	color:rgb(54, 52, 52);
+	font-weight: 600;
+  }
+  .slogan .company-slogan {
+	color:rgb(136, 132, 132);
+	letter-spacing: -normal;
+	font-size: 1rem;
+  }
+
+  
+  h3{
+	text-align: center;
+  }
+
 
 
   .section-2 {
@@ -108,7 +136,7 @@
 	color:rgb(54, 52, 52);;
 	font-weight: 600;
 	margin-top: auto;
-	padding-left: 60px;
+	padding-left: 100px;
   }
   .slogan-2{
     margin-top: -40px;
@@ -119,15 +147,14 @@
 	color:rgb(136, 132, 132);
 	letter-spacing: -normal;
 	font-size: 1rem;
-	padding-left: 60px;
+	padding-left: 100px;
   }
   .HR-img2 .img2{
-	height: 400px;
-	width: 600px;
-  
+	height: 450px;
+	width: 650px;
+  padding-left:100px ;
   }
 
- 
   .HR-img2 .img2 {
     transition: transform 0.3s ease;
   }
@@ -161,14 +188,14 @@
     color:rgb(54, 52, 52);;
     font-weight: 600;
     margin-top: auto;
-    padding-right: 50px;
+    padding-right: 200px;
   }
   
   .slogan-3 .empo-2 {
     color:rgb(136, 132, 132);
     letter-spacing: -normal;
     font-size: 1rem;
-    padding-right: 50px;
+    padding-right: 200px;
   }
   
   .HR-img3 {
@@ -176,64 +203,41 @@
     width: auto;
     
   }
-  .HR-img3 .img3 {
+  
+  
+
+
+  .empo{
+    padding-top: 100px;
+    font-size: 2rem;
+    color:rgb(54, 52, 52);;
+    font-weight: 600;
+    text-align: center;
+    padding-right: 100px;
+  
+  }
+
+.HR-img4 {
+background-color: #d3d3d3;
+margin-top: 100px;
+}
+  .img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    overflow: hidden;
+  
+  }
+
+  
+  .HR-img4 .img4 {
     transition: transform 0.3s ease;
   }
   
-  .HR-img3:hover .img3 {
+  .HR-img4:hover .img4 {
     transform: scale(1.2); /* Adjust the scale value to your desired zoom level */
   }
- 
-  
-
- 
-
-
-  .section-3 {
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 150px;
-   
-  
-  }
-  
-  .flex-container-1 {
-    display: flex;
-    flex-direction: row;
-  }
-  .slogan-3{
-    padding-left: 80px;
-    padding-top: 100px;
-  }
-
-  .slogan-3 .empo-1 {
-    margin-top: -20px;
-    font-size: 2rem;
-    letter-spacing: 10px;
-    color:rgb(54, 52, 52);;
-    font-weight: 600;
-    margin-top: auto;
-    padding-right: 100px;
-  }
-  
-  .slogan-3 .empo-2 {
-    color:rgb(136, 132, 132);
-    letter-spacing: -normal;
-    font-size: 1rem;
-    padding-right: 100px;
-  }
-  
-  .HR-img3 .img3{
-	height: 350px;
-	width: 500px;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); /* Shadow properties */
-        display: inline-block; /* Ensures the shadow takes effect */
-  }
-  
-  
-
- 
-  
  
   .site-footer
   {

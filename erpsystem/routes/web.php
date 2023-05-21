@@ -34,14 +34,7 @@ Route::get('inventory', function () {
     return view('inventory');
 
 });
-Route::get('fleet', function () {
-    return view('fleet');
 
-});
-Route::get('sale', function () {
-    return view('sale');
-
-});
 Route::get('help', function () {
     return view('help');
 
@@ -94,5 +87,31 @@ Route::get('training', function () {
 
 Route::get('form', function () {
     return view('form');
+
+});
+Route::get('emphistory', function () {
+    return view('emphistory');
+
+});
+Route::get('timeoff', function () {
+    return view('timeoff');
+
+});
+Route::get('pormotion', function () {
+    return view('pormotion');
+
+});
+Route::get('cservice', function () {
+    return view('cservice');
+
+});
+
+Route::get('reporting', function () {
+    return view('reporting');
+
+});
+
+Route::get('opportunity', function () {
+    return view('opportunity');
 
 });
