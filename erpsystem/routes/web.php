@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -117,3 +118,27 @@ Route::get('opportunity', function () {
     return view('opportunity');
 
 });
+
+
+Route::get('index', function() {
+    return View::make('index');
+});
+
+
+Route::get('index2', function () {
+    return view('index2');
+
+});
+Route::get('index3', function () {
+    return view('index3');
+
+});
+
+Route::get('/contacts/success', function () {
+    return view('contacts.success');
+})->name('contacts.success');
+
+
+Route::post('/contacts', [ContactController::class, 'store'])->name('contacts.store');
+
+Route::resource('contacts', ContactController::class);
