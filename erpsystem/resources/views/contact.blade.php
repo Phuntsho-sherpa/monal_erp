@@ -208,17 +208,20 @@
 
 				<!--  *******   Form Starts   *******  -->
 
-
-
-				<form class="messageForm">
-
-					
+				@if(session('status'))
+<div class="alert alert-success mb-1 mt-1">
+    {{ session('status') }}
+</div>
+@endif
+				<form  class="messageForm" action="{{ route('contacts.store') }}" method="POST" enctype="multipart/form-data">
+    @csrf
 
 					<div class="inputGroup halfWidth">
 
-						<input type="text" name="" required="required">
+						<input type="text" name="name" required="required">
 
 						<label>Your Name</label>
+				
 
 					</div>
 
@@ -226,19 +229,20 @@
 
 					<div class="inputGroup halfWidth">
 
-						<input type="email" name="" required="required">
+						<input type="email" name="email" required="required">
 
 						<label>Email</label>
-
+			
 					</div>
 
 
 
 					<div class="inputGroup fullWidth">
 
-						<input type="text" name="" required="required">
+						<input type="text" name="subject" required="required">
 
 						<label>Subject</label>
+			
 
 					</div>
 
@@ -246,17 +250,16 @@
 
 					<div class="inputGroup fullWidth">
 
-						<textarea required="required"></textarea>
+						<textarea required="required" name="message"></textarea>
 
 						<label>Say Something</label>
-
+					
+      
 					</div>
-
-
-
+					
 					<div class="inputGroup fullWidth">
 
-						<button>Send Message</button>
+						<button type="submit">Send Message</button>
 
 					</div>
 
