@@ -68,6 +68,7 @@ nav {
 	padding: 0 16%;
 	height: 100px;
   background-color: #fdfafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav .links {

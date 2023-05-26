@@ -241,7 +241,7 @@
 
 						<input type="text" name="subject" required="required">
 
-						<label>Subject</label>
+						<label>What's the issue?</label>
 			
 
 					</div>
@@ -252,7 +252,7 @@
 
 						<textarea required="required" name="message"></textarea>
 
-						<label>Say Something</label>
+						<label>Additional Details</label>
 					
       
 					</div>

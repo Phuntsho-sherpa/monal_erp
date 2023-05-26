@@ -84,7 +84,10 @@ Route::get('training', function () {
 
 });
 
+Route::get('login', function () {
+    return view('login');
 
+});
 
 
 

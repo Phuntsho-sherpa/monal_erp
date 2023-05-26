@@ -67,7 +67,7 @@ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJ
             </h2><br>
               <p> A software system that helps you run your entire business, supporting 
               automation and processes in finance, human resources, manufacturing, supply chain, services, procurement, and more.</p>
-              <p><a class="btn" href="/add">Sign-In As Admin</a></p>
+              <p><a class="btn" href="/login"> Admin</a></p>
 
           </div>
           <div class="home-computer-container">
