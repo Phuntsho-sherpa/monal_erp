@@ -26,7 +26,7 @@
  <div class="company-logo">
  <img src="image/Monal-ERP-Logo1.png" alt="">
  </div>
-   <div id="logo-title" style="color: #26d4bd;"> <b>Monal</span>-<span style="color: #e8810c; ">ERP</span></b></div> 
+   <div id="logo-title" style="color: #26d4bd;"> <b>Monawwl</span>-<span style="color: #e8810c; ">ERP</span></b></div> 
   
    <ul class="links">
      <li><a href="/">Home</a></li>

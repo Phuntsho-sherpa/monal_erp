@@ -117,9 +117,11 @@
               <div class="slider">
                  
                   <div>
+
                     <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzZFnu6K60rs-K6iyam8CzpWWQCMoXM6Zy7g6kPg7sfyciPtytAi2PDOYqNSE1GK7v4KQ&usqp=CAU">
                     <h3>Inventory Control</h3>
                     <p>Providing expert guidance and advice to businesses on ERP system selection, implementation, expiry dates, location,  customization, and ongoing support and maintenance. It also keep information on the past sales, including quantities sold.</p>
+
                     
                   </div>
                   <div>
